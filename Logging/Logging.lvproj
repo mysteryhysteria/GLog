@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">24.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -17,6 +18,32 @@
 			<Item Name="Utilities.lvlib" Type="Library" URL="../../Utilities/Utilities.lvlib"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="registry" Type="Folder">
+				<Item Name="Multiple Register.vi" Type="VI" URL="../Registry/tests/Multiple Register.vi"/>
+				<Item Name="Single Register.vi" Type="VI" URL="../Registry/tests/Single Register.vi"/>
+			</Item>
+			<Item Name="handlers" Type="Folder">
+				<Item Name="file handler" Type="Folder">
+					<Item Name="File Rollover.vi" Type="VI" URL="../Handlers/File Handler/File Rollover.vi"/>
+				</Item>
+				<Item Name="string handler" Type="Folder">
+					<Item Name="Functional Test.vi" Type="VI" URL="../tests/handlers/string handler/Functional Test.vi"/>
+				</Item>
+				<Item Name="test handler" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="Recoverable Errors.vi" Type="VI" URL="../tests/Recoverable Errors.vi"/>
+					<Item Name="Unrecoverable Formatter Error.vi" Type="VI" URL="../tests/Unrecoverable Formatter Error.vi"/>
+					<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../tests/Unrecoverable Writer Error.vi"/>
+					<Item Name="Test Handler.lvclass" Type="LVClass" URL="../Handlers/Test Handler/Test Handler.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="formatters" Type="Folder">
+				<Item Name="format string" Type="Folder">
+					<Item Name="Call Chain Trim Test.vi" Type="VI" URL="../tests/formatters/format string formatter/Call Chain Trim Test.vi"/>
+					<Item Name="Replace Named Format Specifier Test.vi" Type="VI" URL="../tests/formatters/format string formatter/Replace Named Format Specifier Test.vi"/>
+				</Item>
+			</Item>
 			<Item Name="filters" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="regex" Type="Folder">
@@ -29,25 +56,6 @@
 					<Item Name="Data Item Test.vi" Type="VI" URL="../tests/filters/data item/Data Item Test.vi"/>
 				</Item>
 			</Item>
-			<Item Name="formatters" Type="Folder">
-				<Item Name="format string" Type="Folder">
-					<Item Name="Call Chain Trim Test.vi" Type="VI" URL="../tests/formatters/format string formatter/Call Chain Trim Test.vi"/>
-					<Item Name="Replace Named Format Specifier Test.vi" Type="VI" URL="../tests/formatters/format string formatter/Replace Named Format Specifier Test.vi"/>
-				</Item>
-			</Item>
-			<Item Name="handlers" Type="Folder">
-				<Item Name="file handler" Type="Folder">
-					<Item Name="File Rollover.vi" Type="VI" URL="../Handlers/File Handler/File Rollover.vi"/>
-				</Item>
-				<Item Name="string handler" Type="Folder">
-					<Item Name="Functional Test.vi" Type="VI" URL="../tests/handlers/string handler/Functional Test.vi"/>
-				</Item>
-				<Item Name="test handler" Type="Folder">
-					<Item Name="Recoverable Errors.vi" Type="VI" URL="../tests/Recoverable Errors.vi"/>
-					<Item Name="Unrecoverable Formatter Error.vi" Type="VI" URL="../tests/Unrecoverable Formatter Error.vi"/>
-					<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../tests/Unrecoverable Writer Error.vi"/>
-				</Item>
-			</Item>
 			<Item Name="scopes" Type="Folder">
 				<Item Name="helpers" Type="Folder">
 					<Item Name="Call First SubVI Async.vi" Type="VI" URL="../tests/scopes/Call First SubVI Async.vi"/>
@@ -56,10 +64,19 @@
 				</Item>
 				<Item Name="Scope Tester.vi" Type="VI" URL="../tests/scopes/Scope Tester.vi"/>
 			</Item>
-			<Item Name="Compare Log Records.vi" Type="VI" URL="../tests/Compare Log Records.vi"/>
+			<Item Name="helpers" Type="Folder">
+				<Item Name="Compare Log Records.vi" Type="VI" URL="../tests/Compare Log Records.vi"/>
+			</Item>
 		</Item>
+		<Item Name="examples" Type="Folder">
+			<Item Name="Logging Example.vi" Type="VI" URL="../Examples/Logging Example.vi"/>
+			<Item Name="API.vi" Type="VI" URL="../API.vi"/>
+			<Item Name="Wired Logging Example.vi" Type="VI" URL="../Examples/Wired Logging Example.vi"/>
+			<Item Name="Wireless Logging Example.vi" Type="VI" URL="../Examples/Wireless Logging Example.vi"/>
+		</Item>
+		<Item Name="Failure Information.ctl" Type="VI" URL="../Failure Information.ctl"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging.lvlib"/>
-		<Item Name="TODO.txt" Type="Document" URL="../TODO.txt"/>
+		<Item Name="TODO.txt" Type="Document" URL="../../TODO.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
@@ -69,6 +86,7 @@
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
 				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
@@ -160,7 +178,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Logging.lvlib/Logger.lvclass</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Logging.lvlib/API/wired/Logger.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
