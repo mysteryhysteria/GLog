@@ -14,7 +14,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Libraries" Type="Folder">
-			<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
 			<Item Name="Utilities.lvlib" Type="Library" URL="../../Utilities/Utilities.lvlib"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
@@ -73,8 +72,8 @@
 			<Item Name="API.vi" Type="VI" URL="../API.vi"/>
 			<Item Name="Wired Logging Example.vi" Type="VI" URL="../Examples/Wired Logging Example.vi"/>
 			<Item Name="Wireless Logging Example.vi" Type="VI" URL="../Examples/Wireless Logging Example.vi"/>
+			<Item Name="Simple Example for Docs.vi" Type="VI" URL="../Examples/Simple Example for Docs.vi"/>
 		</Item>
-		<Item Name="Failure Information.ctl" Type="VI" URL="../Failure Information.ctl"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging.lvlib"/>
 		<Item Name="TODO.txt" Type="Document" URL="../../TODO.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -142,55 +141,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Scope Tester Packed Library" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B78F4AFB-C587-4269-B666-F2BB4D308139}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Scope Tester Packed Library</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../tests/scopes</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{0F10F221-96FA-4B1A-9ED9-48B2FA7D7060}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Scope Tester Packed Library.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../tests/scopes/Scope Tester Packed Library.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../tests/scopes</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A717F10F-DAA6-43E4-8FFE-76B07BD3CFCA}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/tests/scopes/helpers/Scope Tester Library.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Logging.lvlib/API/wired/Logger.lvclass</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">None</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Scope Tester Packed Library</Property>
-				<Property Name="TgtF_internalName" Type="Str">Scope Tester Packed Library</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 None</Property>
-				<Property Name="TgtF_productName" Type="Str">Scope Tester Packed Library</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{019C34AC-E6FF-40EF-8D17-5E866A6BDC6C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Scope Tester Packed Library.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
