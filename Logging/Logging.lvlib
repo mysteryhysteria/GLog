@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="24008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)P!!!*Q(C=\&gt;3RD&gt;N!%)8B&gt;Y9$J_L!5!P4AFJ1#Z.@J02#81GP"!MQ8)"S2^-#89*;I(_O"O=T9)G*$\DA3!UFP?8O@FJ3F-&lt;W2@KM?7V\PLO^;N=Y;"RUIVX,3X_[XWB@\@`0^K88H@FP_.=WX&gt;U_WD`;XX@\_OX^N0YH?.N.?BB3KCB43=8Y&gt;8/2&amp;XG2&amp;XG2&amp;\H*47ZSEZP=Z%G?Z%G?Z%G?Z%%?Z%%?Z%%?Z'-H&amp;\H)2=[K&amp;*-8%R7$&amp;A-5*U.2=3A]B;@Q&amp;"[_KP!5HM*4?!I0J[DQ&amp;*\#5XA+$^V5?!J0Y3E]B9?BBK4'4I[H]$#]D-&gt;YD-&gt;YD)=J:4Q'9#9T!ZN"9-AUGA`'9TT'QU=:D`%9D`%9$]US(O-R(O-R(LK-6@(1,$MZ(I:2YEE]C3@R*"['6O**0)EH]31?JF0C34Q*)JEQ'2S#EE\*#=G8R*.Y?&amp;0C34S**`%E(JL'&amp;=KR-INGW=HR"*\!%XA#4_"B#!7?Q".Y!E`A96A&amp;HM!4?!*0Y'%K":\!%XA#3$!JUSM9,/A9H"1%A9@8O&amp;NC8#5039S^`ZL8'V6^![JP,05.I\Y2V"&gt;9@?(5&amp;U3^U/I&amp;6#_-_A?L@YA;K*Z90;$[2&amp;UY4N3:/F&amp;([E$NK2WVJ4:,V`^]YO6SU42./J`0/JV//B[0/BQ/WO`XWOVWWG[XWGQW,U_LL_T8\?'PZ^+PRXG?@F$@K/`T`00RJ?G*=^_CLM_F^`"MV#@.LR\TL.&amp;P3%O0.A!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
+<Library LVVersion="18008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)P!!!*Q(C=\&gt;3RD&gt;N!%)8B&gt;Y9$J_L!5!P4AFJ1#Z.@J02#81GP"!MQ8)"S2^-#89*;I(_O"O=T9)G*$\DA3!UFP?8O@FJ3F-&lt;W2@KM?7V\PLO^;N=Y;"RUIVX,3X_[XWB@\@`0^K88H@FP_.=WX&gt;U_WD`;XX@\_OX^N0YH?.N.?BB3KCB43=8Y&gt;8/2&amp;XG2&amp;XG2&amp;\H*47ZSEZP=Z%G?Z%G?Z%G?Z%%?Z%%?Z%%?Z'-H&amp;\H)2=[K&amp;*-8%R7$&amp;A-5*U.2=3A]B;@Q&amp;"[_KP!5HM*4?!I0J[DQ&amp;*\#5XA+$^V5?!J0Y3E]B9?BBK4'4I[H]$#]D-&gt;YD-&gt;YD)=J:4Q'9#9T!ZN"9-AUGA`'9TT'QU=:D`%9D`%9$]US(O-R(O-R(LK-6@(1,$MZ(I:2YEE]C3@R*"['6O**0)EH]31?JF0C34Q*)JEQ'2S#EE\*#=G8R*.Y?&amp;0C34S**`%E(JL'&amp;=KR-INGW=HR"*\!%XA#4_"B#!7?Q".Y!E`A96A&amp;HM!4?!*0Y'%K":\!%XA#3$!JUSM9,/A9H"1%A9@8O&amp;NC8#5039S^`ZL8'V6^![JP,05.I\Y2V"&gt;9@?(5&amp;U3^U/I&amp;6#_-_A?L@YA;K*Z90;$[2&amp;UY4N3:/F&amp;([E$NK2WVJ4:,V`^]YO6SU42./J`0/JV//B[0/BQ/WO`XWOVWWG[XWGQW,U_LL_T8\?'PZ^+PRXG?@F$@K/`T`00RJ?G*=^_CLM_F^`"MV#@.LR\TL.&amp;P3%O0.A!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -10,21 +9,6 @@
 </Property>
 	<Item Name="API" Type="Folder">
 		<Item Name="logging" Type="Folder">
-			<Item Name="internal" Type="Folder">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-				<Item Name="Registry.lvlib" Type="Library" URL="../Registry/Registry.lvlib"/>
-				<Item Name="Mark Error.vi" Type="VI" URL="../Mark Error.vi"/>
-			</Item>
-			<Item Name="control" Type="Folder">
-				<Item Name="Register Logger.vi" Type="VI" URL="../Register Logger.vi"/>
-				<Item Name="List Loggers.vi" Type="VI" URL="../List Loggers.vi"/>
-				<Item Name="Enable Logger by Name.vi" Type="VI" URL="../Enable Logger by Name.vi"/>
-				<Item Name="Enable All Loggers.vi" Type="VI" URL="../Enable All Loggers.vi"/>
-				<Item Name="Disable Logger by Name.vi" Type="VI" URL="../Disable Logger by Name.vi"/>
-				<Item Name="Disable All Loggers.vi" Type="VI" URL="../Disable All Loggers.vi"/>
-				<Item Name="Unregister Loggers.vi" Type="VI" URL="../Unregister Loggers.vi"/>
-				<Item Name="Unregister Logger by Name.vi" Type="VI" URL="../Unregister Logger by Name.vi"/>
-			</Item>
 			<Item Name="w/dataflow" Type="Folder">
 				<Item Name="Trace DF.vim" Type="VI" URL="../Trace DF.vim"/>
 				<Item Name="Debug DF.vim" Type="VI" URL="../Debug DF.vim"/>
@@ -35,6 +19,11 @@
 			</Item>
 			<Item Name="conditional" Type="Folder">
 				<Item Name="Trace If.vim" Type="VI" URL="../Trace If.vim"/>
+				<Item Name="Debug If.vim" Type="VI" URL="../Debug If.vim"/>
+				<Item Name="Info If.vim" Type="VI" URL="../Info If.vim"/>
+				<Item Name="Warning If.vim" Type="VI" URL="../Warning If.vim"/>
+				<Item Name="Error If.vim" Type="VI" URL="../Error If.vim"/>
+				<Item Name="Critical If.vim" Type="VI" URL="../Critical If.vim"/>
 			</Item>
 			<Item Name="Trace.vim" Type="VI" URL="../Trace.vim"/>
 			<Item Name="Debug.vim" Type="VI" URL="../Debug.vim"/>
@@ -43,13 +32,20 @@
 			<Item Name="Error.vim" Type="VI" URL="../Error.vim"/>
 			<Item Name="Critical.vim" Type="VI" URL="../Critical.vim"/>
 		</Item>
+		<Item Name="control" Type="Folder">
+			<Item Name="Register Logger.vi" Type="VI" URL="../Register Logger.vi"/>
+			<Item Name="List Loggers.vi" Type="VI" URL="../List Loggers.vi"/>
+			<Item Name="Enable Logger by Name.vi" Type="VI" URL="../Enable Logger by Name.vi"/>
+			<Item Name="Enable All Loggers.vi" Type="VI" URL="../Enable All Loggers.vi"/>
+			<Item Name="Disable Logger by Name.vi" Type="VI" URL="../Disable Logger by Name.vi"/>
+			<Item Name="Disable All Loggers.vi" Type="VI" URL="../Disable All Loggers.vi"/>
+			<Item Name="Unregister Loggers.vi" Type="VI" URL="../Unregister Loggers.vi"/>
+			<Item Name="Unregister Logger by Name.vi" Type="VI" URL="../Unregister Logger by Name.vi"/>
+		</Item>
 		<Item Name="typedefs" Type="Folder">
 			<Item Name="Log Levels.ctl" Type="VI" URL="../Log Levels.ctl"/>
 			<Item Name="Failure Information.ctl" Type="VI" URL="../Failure Information.ctl"/>
 		</Item>
-	</Item>
-	<Item Name="logger class" Type="Folder">
-		<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
 	</Item>
 	<Item Name="behavior classes" Type="Folder">
 		<Item Name="abstract" Type="Folder">
@@ -86,9 +82,10 @@
 			<Item Name="Format String.lvclass" Type="LVClass" URL="../Formatters/Format String/Format String.lvclass"/>
 		</Item>
 	</Item>
-	<Item Name="Debug If.vim" Type="VI" URL="../Debug If.vim"/>
-	<Item Name="Info If.vim" Type="VI" URL="../Info If.vim"/>
-	<Item Name="Warning If.vim" Type="VI" URL="../Warning If.vim"/>
-	<Item Name="Error If.vim" Type="VI" URL="../Error If.vim"/>
-	<Item Name="Critical If.vim" Type="VI" URL="../Critical If.vim"/>
+	<Item Name="internal" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Registry.lvlib" Type="Library" URL="../Registry/Registry.lvlib"/>
+		<Item Name="Mark Error.vi" Type="VI" URL="../Mark Error.vi"/>
+	</Item>
+	<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
 </Library>
