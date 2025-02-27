@@ -18,4 +18,5 @@
 
 # Custom
 TODO.txt
-GLog.vipb
+logs/
+packages/

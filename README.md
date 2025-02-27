@@ -1,5 +1,5 @@
 # GLog
-Robust, configurable, and extensible logger library for LabVIEW.
+Simple, Configurable, and Extensible logger library for LabVIEW.
 
 ![Simple Example](./docs/assets/simple_example.png)
 
@@ -7,11 +7,11 @@ This project is a logging framework designed to make application logging in LabV
 - Separate handling and invocation, enabling library developers to add logging calls to their code while deferring *how* those calls are handled to the application developer.
 - Have a minimal-impact API which integrates seamlessly into existing code.
 - Provide great defaults that make using the library and learning new features easy and natural.
-- Include out-of-the-box features that support many common use cases.
+- Include built-in features that support many common use cases.
 - Allow users to extend functionality and customize behavior to suit any use case.
 - Provide robust error handling and traceability when errors do occur.
 
-The project drew inspiration from Python's [logging module](https://docs.python.org/3/library/logging.html). This [mCoding video](https://www.youtube.com/watch?v=9L77QExPmI0) is a great breakdown, and many of the same concepts apply to this project.
+The project was inspired by Python's [logging module](https://docs.python.org/3/library/logging.html). This [mCoding video](https://www.youtube.com/watch?v=9L77QExPmI0) is a great breakdown, and many of the same concepts are similar to this project.
 
 # Installation
 1. Open VIPM (download link [here](https://www.vipm.io/download/)).
