@@ -61,7 +61,7 @@ The project is built with the following dependencies:
 
 The project will likely work with newer versions of these dependencies, so long as your LabVIEW version is compatible. The versions above were selected to guarantee compatibility with LabVIEW 2018 and higher. 
 
-See `dependencies.vipc`.
+See [`dependencies.vipc`](dependencies.vipc) (requires VIPM to open).
 
 # Contributing
 Contributions are more than just submitting code! Any suggestions, questions, feedback (and of course, help!) is greatly appreciated. Your contributions are what keep the open source community running.
