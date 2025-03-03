@@ -1,7 +1,7 @@
 # GLog
 Simple, Configurable, and Extensible logger library for LabVIEW.
 
-![Simple Example](./docs/assets/simple_example.png)
+![Simple Example](./docs/assets/banner.png)
 
 This project is a logging framework designed to make application logging in LabVIEW easy. The library ships with features that cover most basic logging needs with minimal configuration, and provides an extensible API that makes creating advanced logging solutions much simpler. It was created with the following design goals in mind:
 - Separate handling and invocation, enabling library developers to add logging calls to their code while deferring *how* those calls are handled to the application developer.
@@ -52,8 +52,16 @@ This step is technically optional. If you don't have any need for the failure in
 32-bit and 64-bit LabVIEW, Version 2018 and newer.
 
 # Dependencies
-- JKI JSON
-- OpenG
+The project is built with the following dependencies:
+- JKI JSON - v1.1.10.37
+- JKI Serialization - v1.0.1.14
+- JKI Unicode - v1.0.0.7
+- OpenG Error Library - v4.2.0.23
+- OpenG Variant Data Library - v5.0.0.27
+
+The project will likely work with newer versions of these dependencies, so long as your LabVIEW version is compatible. The versions above were selected to guarantee compatibility with LabVIEW 2018 and higher. 
+
+See `dependencies.vip`.
 
 # Contributing
 Contributions are more than just submitting code! Any suggestions, questions, feedback (and of course, help!) is greatly appreciated. Your contributions are what keep the open source community running.

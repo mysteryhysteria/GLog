@@ -23,10 +23,8 @@
 			</Item>
 			<Item Name="examples" Type="Folder">
 				<Item Name="API.vi" Type="VI" URL="../src/examples/API.vi"/>
-				<Item Name="Logging Example.vi" Type="VI" URL="../src/examples/Logging Example.vi"/>
-				<Item Name="Simple Example for Docs.vi" Type="VI" URL="../src/examples/Simple Example for Docs.vi"/>
-				<Item Name="Wired Logging Example.vi" Type="VI" URL="../src/examples/Wired Logging Example.vi"/>
-				<Item Name="Wireless Logging Example.vi" Type="VI" URL="../src/examples/Wireless Logging Example.vi"/>
+				<Item Name="Class-Based Logging (Wired).vi" Type="VI" URL="../src/examples/Class-Based Logging (Wired).vi"/>
+				<Item Name="Registry-Based Logging (Wireless).vi" Type="VI" URL="../src/examples/Registry-Based Logging (Wireless).vi"/>
 			</Item>
 			<Item Name="registry" Type="Folder">
 				<Item Name="tests" Type="Folder">
@@ -73,6 +71,20 @@
 				<Item Name="Unrecoverable Formatter Error.vi" Type="VI" URL="../src/tests/Unrecoverable Formatter Error.vi"/>
 				<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../src/tests/Unrecoverable Writer Error.vi"/>
 			</Item>
+		</Item>
+		<Item Name="docs" Type="Folder">
+			<Item Name="assets" Type="Folder">
+				<Item Name="banner.png" Type="Document" URL="../docs/assets/banner.png"/>
+				<Item Name="critical.png" Type="Document" URL="../docs/assets/critical.png"/>
+				<Item Name="debug.png" Type="Document" URL="../docs/assets/debug.png"/>
+				<Item Name="error.png" Type="Document" URL="../docs/assets/error.png"/>
+				<Item Name="info.png" Type="Document" URL="../docs/assets/info.png"/>
+				<Item Name="register_logger_qd.png" Type="Document" URL="../docs/assets/register_logger_qd.png"/>
+				<Item Name="trace.png" Type="Document" URL="../docs/assets/trace.png"/>
+				<Item Name="warning.png" Type="Document" URL="../docs/assets/warning.png"/>
+				<Item Name="banner.vi" Type="VI" URL="../docs/assets/banner.vi"/>
+			</Item>
+			<Item Name="docs.md" Type="Document" URL="../docs/docs.md"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
