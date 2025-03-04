@@ -14,13 +14,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Libraries" Type="Folder">
-			<Item Name="Utilities.lvlib" Type="Library" URL="../Utilities/Utilities.lvlib"/>
-		</Item>
+		<Item Name="Libraries" Type="Folder"/>
 		<Item Name="src" Type="Folder">
-			<Item Name="api" Type="Folder">
-				<Item Name="Logging.lvlib" Type="Library" URL="../src/api/Logging.lvlib"/>
-			</Item>
 			<Item Name="examples" Type="Folder">
 				<Item Name="API.vi" Type="VI" URL="../src/examples/API.vi"/>
 				<Item Name="Class-Based Logging (Wired).vi" Type="VI" URL="../src/examples/Class-Based Logging (Wired).vi"/>
@@ -71,6 +66,7 @@
 				<Item Name="Unrecoverable Formatter Error.vi" Type="VI" URL="../src/tests/Unrecoverable Formatter Error.vi"/>
 				<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../src/tests/Unrecoverable Writer Error.vi"/>
 			</Item>
+			<Item Name="GLog.lvlib" Type="Library" URL="../src/api/GLog.lvlib"/>
 		</Item>
 		<Item Name="docs" Type="Folder">
 			<Item Name="assets" Type="Folder">

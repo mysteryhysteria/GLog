@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="18008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">Logging.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../src/api/Logging.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">GLog.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../api/GLog.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\&gt;5^&lt;NN!%)&lt;BTU%+N\R")AAQ8-]6&gt;!6&gt;9;\!VK6;F^0&lt;283#",L#8%&amp;V/N&lt;KG(?8)VN!!+N*!C-Q[;8)&lt;`]?,3F;[NON^&amp;HTN?XUZE&lt;^UK9@Z\J=,E\T5F_HJ_7Q80&gt;I@OX@0PL65HE_O?Q`8X9_"_@[VWF`K\`CP\,J9`P9`O`NY?K0Y+``$G\58E35J!4&amp;+;9W\:TE3:\E3:\E32\E12\E12\E1?\E4O\E4O\E4G\E2G\E2G\E2NZX=J',8/31EMG4C:*"EQ'3RF#5("*0YEE]C9&gt;,*:\%EXA34_+BC2*0YEE]C3@RU%W**`%EHM34?"CK3\,PZ(A3$]-L]!3?Q".Y!A^4+P!%A'#S9/"A%"A++I/4Q".Y!A_H#DS"*`!%HM"$N1*0Y!E]A3@QU+7P3H2.W]HR-)Q=D_.R0)\(]4#U()`D=4S/R`%QH2S0YX%1TI4/Y"$E&gt;();/"?/R`(Q)=@D?"S0YX%]605\Z(VFGK&lt;NZ(A-D_%R0)&lt;(]$#%$)`B-4S'R`!QL!S0Y4%]BM@Q-*5-D_%R0!&lt;%G*4J:1RG&gt;$1;'9(BY;]`,&gt;&lt;P5H3*^6WKBV@V5+I?.N6$J(IY6$&gt;&gt;&gt;4.6.UGV_+J&amp;63W7;B&amp;58U[&amp;6G&amp;5E[A[NY;;/"YJ"]K?MK/-F#VF1VF2BN&lt;V$T?=JEH(YV'(QU(\`6[\X5\D/'K\X7KTW7CV7GE9BJ@8Q"@WFR@#]FZ[Y0T\T`(__8&lt;^\9@@$=^@VY^0U`KRZ@`A``-\?$@KES\H9)V_!1];WB1!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
