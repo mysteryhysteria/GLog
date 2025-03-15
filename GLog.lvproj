@@ -66,7 +66,6 @@
 				<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../src/tests/Unrecoverable Writer Error.vi"/>
 			</Item>
 			<Item Name="GLog.lvlib" Type="Library" URL="../src/api/GLog.lvlib"/>
-			<Item Name="Utilities.lvlib" Type="Library" URL="../src/Utilities/Utilities.lvlib"/>
 		</Item>
 		<Item Name="docs" Type="Folder">
 			<Item Name="assets" Type="Folder">

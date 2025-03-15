@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-03-15 11:24:11" Creator="Colin" Comments="" ID="b37a0c544c147c85e3c4a22218559a15">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-03-15 11:53:24" Creator="Colin" Comments="" ID="72e64d6ada2309c889d4ea13b894ebfb">
   <Library_General_Settings>
     <Package_File_Name>NQE_GLog</Package_File_Name>
-    <Library_Version>1.0.0.9</Library_Version>
+    <Library_Version>1.0.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vipm_packages</Library_Output_Folder>
@@ -441,7 +441,7 @@ Features:
         <Path>src\api</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A07AC6F9629AE8FFA678F6B13F3EF41</GUID>
+      <GUID>C32720AF649BA3CEDB49D2D9C2037580</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -868,7 +868,7 @@ Features:
         <Path>src\examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A57340A4FF58BFB897EDF981F5688439</GUID>
+      <GUID>9891989E057E76A66CF31042E4931394</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -945,7 +945,7 @@ Features:
         <Path>src\examples\Registry-Based Logging (Wireless).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEC35FBAA4948854F8D621E0D1682BD7</GUID>
+      <GUID>388A9E8BBBA70FEF07B3AF0F7FA2E711</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1078,7 +1078,7 @@ Features:
         <Path>src\api\configuration\scopes\basic_scope\New Basic Scope.vi</Path>
         <VI_Title>New Basic Scope</VI_Title>
       </Items_Data>
-      <GUID>F8E41080C782AD6CDCD1F58DE9E8AE94</GUID>
+      <GUID>82C6EBAD500639F286A0C0EFE698B55A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1183,7 +1183,7 @@ Features:
         <Path>src\api\logger_class\New Logger.vi</Path>
         <VI_Title>New Logger</VI_Title>
       </Items_Data>
-      <GUID>795B24619A8FA9E82B37D374C9FF130B</GUID>
+      <GUID>9DF9E2032C0AA5D52076D5F637885579</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
