@@ -14,7 +14,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Libraries" Type="Folder"/>
 		<Item Name="src" Type="Folder">
 			<Item Name="examples" Type="Folder">
 				<Item Name="API.vi" Type="VI" URL="../src/examples/API.vi"/>
@@ -67,6 +66,7 @@
 				<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../src/tests/Unrecoverable Writer Error.vi"/>
 			</Item>
 			<Item Name="GLog.lvlib" Type="Library" URL="../src/api/GLog.lvlib"/>
+			<Item Name="Utilities.lvlib" Type="Library" URL="../src/Utilities/Utilities.lvlib"/>
 		</Item>
 		<Item Name="docs" Type="Folder">
 			<Item Name="assets" Type="Folder">
@@ -86,7 +86,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>

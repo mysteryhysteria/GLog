@@ -86,7 +86,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Registry.lvlib" Type="Library" URL="../../registry/Registry.lvlib"/>
 		<Item Name="Mark Error.vi" Type="VI" URL="../Mark Error.vi"/>
-		<Item Name="Utilities.lvlib" Type="Library" URL="../../../Utilities/Utilities.lvlib"/>
 	</Item>
 	<Item Name="Logger.lvclass" Type="LVClass" URL="../logger_class/Logger.lvclass"/>
 </Library>
