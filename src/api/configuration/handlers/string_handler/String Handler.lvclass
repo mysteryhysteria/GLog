@@ -32,13 +32,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
 	<Item Name="New String Handler.vi" Type="VI" URL="../New String Handler.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%I!!!!"Q!%!!!!1%"Q!"Y!!#-+2URP:SZM&gt;GRJ9B:4&gt;(*J&lt;G=A3'&amp;O:'RF=CZM&gt;G.M98.T!"*O:8=A=X2S;7ZH)'BB&lt;G2M:8)!!":!)2"B&gt;82P,8.D=G^M&lt;$]A+&amp;1J!!!51#%0&lt;86M&gt;'EN&lt;'FO:4]A+&amp;1J!%*!=!!?!!!?#E&gt;-&lt;W=O&lt;(:M;7)22G^S&lt;7&amp;U&gt;'6S,GRW9WRB=X-!!"FG&lt;X*N982U:8)A+':P=GVB&gt;#"T&gt;(*J&lt;G=J!"R!=!!)!!!!'Q!!$H.U=GFO:S"D&lt;WZU=G^M!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!A!$!!1!"1-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!+!!!!%!!!!!!"!!9!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%I!!!!"Q!%!!!!1%"Q!"Y!!#-+2URP:SZM&gt;GRJ9B:4&gt;(*J&lt;G=A3'&amp;O:'RF=CZM&gt;G.M98.T!"*O:8=A=X2S;7ZH)'BB&lt;G2M:8)!!":!)2"B&gt;82P,8.D=G^M&lt;$]A+&amp;1J!!!51#%0&lt;86M&gt;'EN&lt;'FO:4]A+&amp;1J!%*!=!!?!!!?#E&gt;-&lt;W=O&lt;(:M;7)22G^S&lt;7&amp;U&gt;'6S,GRW9WRB=X-!!"FG&lt;X*N982U:8)A+':P=GVB&gt;#"T&gt;(*J&lt;G=J!"R!=!!)!!!!'Q!!$H.U=GFO:S"D&lt;WZU=G^M!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!A!$!!1!"1)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!+!!!!%!!!!!!"!!9!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 	</Item>
 	<Item Name="Write Log Line.vi" Type="VI" URL="../Write Log Line.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%N!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%"!=!!?!!!D#E&gt;-&lt;W=O&lt;(:M;7)75X2S;7ZH)%BB&lt;G2M:8)O&lt;(:D&lt;'&amp;T=Q!3=X2S;7ZH)'BB&lt;G2M:8)A&lt;X6U!!!31$$`````#'RP:S"M;7ZF!!!_1(!!(A!!)QJ(4'^H,GRW&lt;'FC&amp;F.U=GFO:S")97ZE&lt;'6S,GRW9WRB=X-!%8.U=GFO:S"I97ZE&lt;'6S)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!%!!1!"A!(!Q!!?!!!#1!!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!B!!!!#1!!!!!!%!#!!!!!!</Property>

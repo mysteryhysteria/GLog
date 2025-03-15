@@ -88,5 +88,5 @@
 		<Item Name="Mark Error.vi" Type="VI" URL="../Mark Error.vi"/>
 	</Item>
 	<Item Name="Logger.lvclass" Type="LVClass" URL="../logger_class/Logger.lvclass"/>
-	<Item Name="Utilities.lvlib" Type="Library" URL="../../Utilities/Utilities.lvlib"/>
+	<Item Name="Utilities.lvlib" Type="Library" URL="../Utilities/Utilities.lvlib"/>
 </Library>
