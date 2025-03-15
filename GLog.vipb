@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-03-03 22:08:08" Creator="Colin" Comments="" ID="f8bfc8b04382e3e714726704b70dc592">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-03-15 10:48:56" Creator="Colin" Comments="" ID="a37c8c4c6404dafa6dd3b864d5bcb46e">
   <Library_General_Settings>
     <Package_File_Name>NQE_GLog</Package_File_Name>
-    <Library_Version>1.0.0.7</Library_Version>
+    <Library_Version>1.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vipm_packages</Library_Output_Folder>
@@ -441,7 +441,7 @@ Features:
         <Path>src\api</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7748EF7926CDA49BF7185D2F5B07E558</GUID>
+      <GUID>B91E7AB445357C872EBE3CFA7A4812F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -868,7 +868,7 @@ Features:
         <Path>src\examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9FCC1FAC6A49CB377D1276BE70838A8</GUID>
+      <GUID>245828758ED89DCE9E45C6B233CFA67A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -945,7 +945,7 @@ Features:
         <Path>src\examples\Registry-Based Logging (Wireless).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4D67566349E061C8B98BCE77FD853477</GUID>
+      <GUID>064C0D8D4BE5B2685DC578108225E9AD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -969,35 +969,7 @@ Features:
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>src\api\configuration\handlers\file_handler\New.vi</Path>
-        <VI_Title>New File Handler</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>src\api\configuration\handlers\string_handler\New.vi</Path>
-        <VI_Title>New String Handler</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>New Combination Filter.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1005,13 +977,13 @@ Features:
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\api\configuration\filters\combination_filter\New.vi</Path>
+        <Path>src\api\configuration\filters\combination_filter\New Combination Filter.vi</Path>
         <VI_Title>New Combination Filter</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>New Regex Filter.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1019,41 +991,13 @@ Features:
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\api\configuration\filters\regex_filter\New.vi</Path>
+        <Path>src\api\configuration\filters\regex_filter\New Regex Filter.vi</Path>
         <VI_Title>New Regex Filter</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>src\api\configuration\formatters\JSON_formatter\New.vi</Path>
-        <VI_Title>New JSON Formatter</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>src\api\configuration\formatters\format_string_formatter\New.vi</Path>
-        <VI_Title>New F-String Formatter</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>New Data Item Filter.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1061,13 +1005,69 @@ Features:
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\api\configuration\filters\data_item_filter\New.vi</Path>
+        <Path>src\api\configuration\filters\data_item_filter\New Data Item Filter.vi</Path>
         <VI_Title>New Data Item Filter</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>New JSON Formatter.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\api\configuration\formatters\JSON_formatter\New JSON Formatter.vi</Path>
+        <VI_Title>New JSON Formatter</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>New F-String Formatter.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\api\configuration\formatters\format_string_formatter\New F-String Formatter.vi</Path>
+        <VI_Title>New F-String Formatter</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>New File Handler.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\api\configuration\handlers\file_handler\New File Handler.vi</Path>
+        <VI_Title>New File Handler</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>New String Handler.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\api\configuration\handlers\string_handler\New String Handler.vi</Path>
+        <VI_Title>New String Handler</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>New Basic Scope.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -1075,10 +1075,10 @@ Features:
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\api\configuration\scopes\basic_scope\New.vi</Path>
+        <Path>src\api\configuration\scopes\basic_scope\New Basic Scope.vi</Path>
         <VI_Title>New Basic Scope</VI_Title>
       </Items_Data>
-      <GUID>058A5172C1891F14584DBE9EB472E344</GUID>
+      <GUID>D5C099259C69A7F20DC71CDD45005164</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1099,20 +1099,6 @@ Features:
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>src\api\logger_class</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>New.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>src\api\logger_class\New.vi</Path>
-        <VI_Title>New</VI_Title>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -1183,7 +1169,21 @@ Features:
         <Path>src\api\logger_class\Get Name.vi</Path>
         <VI_Title>Get Name</VI_Title>
       </Items_Data>
-      <GUID>A87468A4DEE877A675B83E12CB06BDEE</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>New Logger.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\api\logger_class\New Logger.vi</Path>
+        <VI_Title>New Logger</VI_Title>
+      </Items_Data>
+      <GUID>844262883CCC9BFDEDD5E33E5F00C2CE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
