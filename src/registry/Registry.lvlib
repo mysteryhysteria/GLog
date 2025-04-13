@@ -10,22 +10,28 @@
 </Property>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Start.vi" Type="VI" URL="../Start.vi"/>
 		<Item Name="Register.vi" Type="VI" URL="../Register.vi"/>
 		<Item Name="List.vi" Type="VI" URL="../List.vi"/>
 		<Item Name="Enable.vi" Type="VI" URL="../Enable.vi"/>
 		<Item Name="Enable All.vi" Type="VI" URL="../Enable All.vi"/>
+		<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 		<Item Name="Disable.vi" Type="VI" URL="../Disable.vi"/>
 		<Item Name="Disable All.vi" Type="VI" URL="../Disable All.vi"/>
-		<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 		<Item Name="Unregister.vi" Type="VI" URL="../Unregister.vi"/>
 		<Item Name="Unregister All.vi" Type="VI" URL="../Unregister All.vi"/>
+		<Item Name="Stop.vi" Type="VI" URL="../Stop.vi"/>
+		<Item Name="Is Running.vi" Type="VI" URL="../Is Running.vi"/>
 	</Item>
 	<Item Name="internal" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Action Data" Type="Folder">
 			<Item Name="Log Action Data.ctl" Type="VI" URL="../Log Action Data.ctl"/>
 		</Item>
+		<Item Name="Registry Actions Event.vi" Type="VI" URL="../Registry Actions Event.vi"/>
 		<Item Name="Registry Actions.ctl" Type="VI" URL="../Registry Actions.ctl"/>
+		<Item Name="Registry Message.ctl" Type="VI" URL="../Registry Message.ctl"/>
 		<Item Name="Registry.vi" Type="VI" URL="../Registry.vi"/>
+		<Item Name="Send Message.vi" Type="VI" URL="../Send Message.vi"/>
 	</Item>
 </Library>
