@@ -1,0 +1,5 @@
+Internal, Logger Initialized
+Warning, Warning
+Error, Error
+Critical, Critical
+Internal, Logger Destroyed

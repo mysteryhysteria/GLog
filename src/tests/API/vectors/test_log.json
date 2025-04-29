@@ -1,0 +1,88 @@
+{
+	"vi":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\API\\Test_Log.vi",
+	"vectors":[
+		{
+			"inputs":{
+				"minimum log level"	:"Trace",
+				"error in"			:{"status":false, "code":0, "source":""},
+				"directory"			:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test"
+			},
+			"outputs":{
+				"failure info"		:null,
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"minimum log level"	:"Debug",
+				"error in"			:{"status":false, "code":0, "source":""},
+				"directory"			:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test"
+			},
+			"outputs":{
+				"failure info"		:null,
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"minimum log level"	:"Info",
+				"error in"			:{"status":false, "code":0, "source":""},
+				"directory"			:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test"
+			},
+			"outputs":{
+				"failure info"		:null,
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"minimum log level"	:"Warning",
+				"error in"			:{"status":false, "code":0, "source":""},
+				"directory"			:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test"
+			},
+			"outputs":{
+				"failure info"		:null,
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"minimum log level"	:"Error",
+				"error in"			:{"status":false, "code":0, "source":""},
+				"directory"			:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test"
+			},
+			"outputs":{
+				"failure info"		:null,
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"minimum log level"	:"Critical",
+				"error in"			:{"status":false, "code":0, "source":""},
+				"directory"			:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test"
+			},
+			"outputs":{
+				"failure info"		:null,
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		}
+	],
+	"environments":[
+		{
+			"class":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\Environment.LogFile\\Environment.LogFile.lvclass",
+			"setup":{
+				"log directory":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"result directory":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\API\\vectors"
+			},
+			"vectors":[
+				".\\test_log_1.result",
+				".\\test_log_2.result",
+				".\\test_log_3.result",
+				".\\test_log_4.result",
+				".\\test_log_5.result",
+				".\\test_log_6.result"
+			]
+		}
+	]
+}
