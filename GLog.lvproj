@@ -34,12 +34,9 @@
 				</Item>
 				<Item Name="filters" Type="Folder">
 					<Item Name="data item" Type="Folder">
-						<Item Name="Combination Test.vi" Type="VI" URL="../src/tests/filters/data item/Combination Test.vi"/>
 						<Item Name="Data Item Test.vi" Type="VI" URL="../src/tests/filters/data item/Data Item Test.vi"/>
 					</Item>
-					<Item Name="regex" Type="Folder">
-						<Item Name="Regex Test.vi" Type="VI" URL="../src/tests/filters/regex/Regex Test.vi"/>
-					</Item>
+					<Item Name="regex" Type="Folder"/>
 				</Item>
 				<Item Name="formatters" Type="Folder">
 					<Item Name="format string formatter" Type="Folder">
@@ -282,6 +279,7 @@
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
 				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
+				<Item Name="No of Elements in Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/No of Elements in Cluster__ogtk.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
