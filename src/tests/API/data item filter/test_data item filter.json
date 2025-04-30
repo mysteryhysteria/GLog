@@ -1,0 +1,100 @@
+{
+	"vi":".\\test_data item filter.vi",
+	"vectors":[
+		{
+			"inputs":{
+				"data items"			:["CPU ID"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"data items"			:["Machine Name"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"data items"			:["PID"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"data items"			:["CPU ID","Machine Name"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"data items"			:["CPU ID","Machine Name","PID"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}	
+			}
+		},
+		{
+			"inputs":{
+				"data items"			:["CPU ID","Machine Name","PID"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"Any",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		}
+	],
+	"environments":[
+		{
+			"class":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\Environment.LogFile\\Environment.LogFile.lvclass",
+			"setup":{
+				"log directory":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"result directory":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\API\\data item filter"
+			},
+			"vectors":[
+				".\\cpu.result",
+				".\\machine.result",
+				".\\pid.result",
+				".\\cpu_machine.result",
+				".\\all.result",
+				".\\any.result"
+			]
+		}
+	]
+}

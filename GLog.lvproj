@@ -32,12 +32,6 @@
 						<Item Name="Test Handler.lvclass" Type="LVClass" URL="../src/tests/custom_classes/test_handler/Test Handler.lvclass"/>
 					</Item>
 				</Item>
-				<Item Name="filters" Type="Folder">
-					<Item Name="data item" Type="Folder">
-						<Item Name="Data Item Test.vi" Type="VI" URL="../src/tests/filters/data item/Data Item Test.vi"/>
-					</Item>
-					<Item Name="regex" Type="Folder"/>
-				</Item>
 				<Item Name="formatters" Type="Folder">
 					<Item Name="format string formatter" Type="Folder">
 						<Item Name="Replace Named Format Specifier Test.vi" Type="VI" URL="../src/tests/formatters/format string formatter/Replace Named Format Specifier Test.vi"/>
