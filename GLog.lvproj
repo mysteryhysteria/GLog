@@ -89,6 +89,7 @@
 			</Item>
 			<Item Name="docs.md" Type="Document" URL="../docs/docs.md"/>
 		</Item>
+		<Item Name="New Test File Handler.vi" Type="VI" URL="../src/tests/helpers/New Test File Handler.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>

@@ -1,0 +1,120 @@
+{
+	"vi":".\\test_regex and combo filter.vi",
+	"vectors":[
+		{
+			"inputs":{
+				"match behavior"		:"Keep",
+				"aggregation method"	:"Any",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""},
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"match behavior"		:"Keep",
+				"aggregation method"	:"Only",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""},
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""},
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"match behavior"		:"Keep",
+				"aggregation method"	:"None",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""},
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"match behavior"		:"Discard",
+				"aggregation method"	:"Any",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""},
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"match behavior"		:"Discard",
+				"aggregation method"	:"Only",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""},
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"match behavior"		:"Discard",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""},
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"match behavior"		:"Discard",
+				"aggregation method"	:"None",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""},
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		}
+	],
+	"environments":[
+		{
+			"class":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\Environment.LogFile\\Environment.LogFile.lvclass",
+			"setup":{
+				"log directory":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"result directory":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\API\\regex and combo filter"
+			},
+			"vectors":[
+				".\\keep_any.result",
+				".\\keep_only.result",
+				".\\keep_all.result",
+				".\\keep_none.result",
+				".\\discard_any.result",
+				".\\discard_only.result",
+				".\\discard_all.result",
+				".\\discard_none.result"
+			]
+		}
+	]
+}
