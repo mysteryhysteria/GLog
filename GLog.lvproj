@@ -33,9 +33,7 @@
 					</Item>
 				</Item>
 				<Item Name="formatters" Type="Folder">
-					<Item Name="format string formatter" Type="Folder">
-						<Item Name="Replace Named Format Specifier Test.vi" Type="VI" URL="../src/tests/formatters/format string formatter/Replace Named Format Specifier Test.vi"/>
-					</Item>
+					<Item Name="format string formatter" Type="Folder"/>
 				</Item>
 				<Item Name="handlers" Type="Folder">
 					<Item Name="string handler" Type="Folder">
@@ -57,6 +55,9 @@
 				</Item>
 				<Item Name="API" Type="Folder" URL="../src/tests/API">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
+				<Item Name="helpers" Type="Folder">
+					<Item Name="New Test File Handler.vi" Type="VI" URL="../src/tests/helpers/New Test File Handler.vi"/>
 				</Item>
 				<Item Name="Compare Log Records.vi" Type="VI" URL="../src/tests/Compare Log Records.vi"/>
 				<Item Name="Recoverable Errors.vi" Type="VI" URL="../src/tests/Recoverable Errors.vi"/>
@@ -80,7 +81,6 @@
 			</Item>
 			<Item Name="docs.md" Type="Document" URL="../docs/docs.md"/>
 		</Item>
-		<Item Name="New Test File Handler.vi" Type="VI" URL="../src/tests/helpers/New Test File Handler.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>

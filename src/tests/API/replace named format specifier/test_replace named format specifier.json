@@ -1,0 +1,445 @@
+{
+	"vi":".\\test_replace named format specifier.vi",
+	"vectors":[
+		{
+			"inputs":{
+				"format string"		:"%{str}$s",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"hello, world",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$x",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"FFFFFFFFFFFFFE5B",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$o",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"1777777777777777777133",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$b",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"1111111111111111111111111111111111111111111111111111111001011011",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$d",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"-421",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$u",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"0",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$f",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"-420.690000",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$e",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"-4.206900E+2",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$g",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"-420.690000",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{dbl}$p",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"-420.690000",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{path}$s",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"path\\to\\nowhere",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{i32}$d",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"123645789",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{timestamp}$T",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"10:20:15.526 AM 1/23/2025",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{enum}$s",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"third",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{enum}$d",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"2",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{sub.quote}$s",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"good to be here",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{sub.val}$f",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"1589620.000000",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{name\\.with\\.dots}$d",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"15987",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{name\\\\with\\\\slashes}$d",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"7862199",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"format string"		:"%{name\\.with\\\\both}$d",
+				"data"				:{
+										"str":"hello, world",
+										"dbl":-420.69,
+										"path":"path\\to\\nowhere",
+										"i32":123645789,
+										"timestamp":"2025-01-23T10:20:15.526Z-08:00",
+										"enum":"third",
+										"sub":{"quote":"good to be here", "val":1589620},
+										"name.with.dots":15987,
+										"name\\with\\slashes":7862199,
+										"name.with\\both":168744654
+									},
+				"error in"			:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"resulting string"	:"168744654",
+				"error out"			:{"status":false, "code":0, "source":""}
+			}
+		}
+	]
+}
