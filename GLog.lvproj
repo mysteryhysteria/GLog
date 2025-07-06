@@ -22,18 +22,21 @@
 		</Item>
 		<Item Name="src" Type="Folder">
 			<Item Name="examples" Type="Folder">
+				<Item Name="demo" Type="Folder">
+					<Item Name="Update Logger List.vi" Type="VI" URL="../src/examples/demo_support/Update Logger List.vi"/>
+					<Item Name="SubVI.vi" Type="VI" URL="../src/examples/demo_support/SubVI.vi"/>
+					<Item Name="SubSubVI.vi" Type="VI" URL="../src/examples/demo_support/SubSubVI.vi"/>
+				</Item>
 				<Item Name="API.vi" Type="VI" URL="../src/examples/API.vi"/>
 				<Item Name="Class-Based Logging (Wired).vi" Type="VI" URL="../src/examples/Class-Based Logging (Wired).vi"/>
 				<Item Name="Registry-Based Logging (Wireless).vi" Type="VI" URL="../src/examples/Registry-Based Logging (Wireless).vi"/>
+				<Item Name="Demo.vi" Type="VI" URL="../src/examples/Demo.vi"/>
 			</Item>
 			<Item Name="tests" Type="Folder">
 				<Item Name="mock classes" Type="Folder">
 					<Item Name="test_handler" Type="Folder">
 						<Item Name="Test Handler.lvclass" Type="LVClass" URL="../src/tests/custom_classes/test_handler/Test Handler.lvclass"/>
 					</Item>
-				</Item>
-				<Item Name="formatters" Type="Folder">
-					<Item Name="format string formatter" Type="Folder"/>
 				</Item>
 				<Item Name="handlers" Type="Folder">
 					<Item Name="string handler" Type="Folder">
@@ -78,6 +81,24 @@
 				<Item Name="trace.png" Type="Document" URL="../docs/assets/trace.png"/>
 				<Item Name="warning.png" Type="Document" URL="../docs/assets/warning.png"/>
 				<Item Name="banner.vi" Type="VI" URL="../docs/assets/banner.vi"/>
+			</Item>
+			<Item Name="presentations" Type="Folder">
+				<Item Name="Simple Class-Based Logging" Type="Folder">
+					<Item Name="Simple Class-Based Logging.vi" Type="VI" URL="../docs/presentations/Simple Class-Based Logging.vi"/>
+					<Item Name="Create.vi" Type="VI" URL="../docs/presentations/Create.vi"/>
+				</Item>
+				<Item Name="Simple Wireless Logging" Type="Folder">
+					<Item Name="Log_1.vi" Type="VI" URL="../docs/presentations/Simple Class-Based Logging/Log_1.vi"/>
+					<Item Name="Simple Wireless Logging.vi" Type="VI" URL="../docs/presentations/Simple Wireless Logging/Simple Wireless Logging.vi"/>
+					<Item Name="Create_1.vi" Type="VI" URL="../docs/presentations/Simple Wireless Logging/Create_1.vi"/>
+				</Item>
+				<Item Name="configurable logging" Type="Folder">
+					<Item Name="Configurable Logging.vi" Type="VI" URL="../docs/presentations/Configurable Logging/Configurable Logging.vi"/>
+					<Item Name="New Logger_1.vi" Type="VI" URL="../docs/presentations/Configurable Logging/New Logger_1.vi"/>
+				</Item>
+				<Item Name="registry logging" Type="Folder">
+					<Item Name="Registry Logging.vi" Type="VI" URL="../docs/presentations/Registry logging/Registry Logging.vi"/>
+				</Item>
 			</Item>
 			<Item Name="docs.md" Type="Document" URL="../docs/docs.md"/>
 		</Item>
@@ -242,6 +263,10 @@
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Show in File System.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Show in File System.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>

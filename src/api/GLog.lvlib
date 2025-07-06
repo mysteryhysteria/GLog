@@ -41,10 +41,15 @@
 			<Item Name="Disable All Loggers.vi" Type="VI" URL="../Disable All Loggers.vi"/>
 			<Item Name="Unregister Loggers.vi" Type="VI" URL="../Unregister Loggers.vi"/>
 			<Item Name="Unregister Logger by Name.vi" Type="VI" URL="../Unregister Logger by Name.vi"/>
+			<Item Name="Get All Logger Info.vi" Type="VI" URL="../Get All Logger Info.vi"/>
+			<Item Name="Set Minimum Log Level.vi" Type="VI" URL="../Set Minimum Log Level.vi"/>
+			<Item Name="Set All Minimum Log Level.vi" Type="VI" URL="../Set All Minimum Log Level.vi"/>
 		</Item>
 		<Item Name="typedefs" Type="Folder">
 			<Item Name="Log Levels.ctl" Type="VI" URL="../Log Levels.ctl"/>
 			<Item Name="Failure Information.ctl" Type="VI" URL="../Failure Information.ctl"/>
+			<Item Name="Internal Log Levels.ctl" Type="VI" URL="../logger_class/Internal Log Levels.ctl"/>
+			<Item Name="Log Record.ctl" Type="VI" URL="../Log Record.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="behavior classes" Type="Folder">
@@ -70,10 +75,7 @@
 			<Item Name="Combination.lvclass" Type="LVClass" URL="../configuration/filters/combination_filter/Combination.lvclass"/>
 		</Item>
 		<Item Name="handlers" Type="Folder">
-			<Item Name="typedefs" Type="Folder">
-				<Item Name="Internal Log Levels.ctl" Type="VI" URL="../logger_class/Internal Log Levels.ctl"/>
-				<Item Name="Log Record.ctl" Type="VI" URL="../Log Record.ctl"/>
-			</Item>
+			<Item Name="typedefs" Type="Folder"/>
 			<Item Name="File Handler.lvclass" Type="LVClass" URL="../configuration/handlers/file_handler/File Handler.lvclass"/>
 			<Item Name="String Handler.lvclass" Type="LVClass" URL="../configuration/handlers/string_handler/String Handler.lvclass"/>
 		</Item>

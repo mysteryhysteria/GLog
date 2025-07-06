@@ -15,9 +15,14 @@
 		<Item Name="List.vi" Type="VI" URL="../List.vi"/>
 		<Item Name="Enable.vi" Type="VI" URL="../Enable.vi"/>
 		<Item Name="Enable All.vi" Type="VI" URL="../Enable All.vi"/>
-		<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 		<Item Name="Disable.vi" Type="VI" URL="../Disable.vi"/>
 		<Item Name="Disable All.vi" Type="VI" URL="../Disable All.vi"/>
+		<Item Name="Get Enable State.vi" Type="VI" URL="../Get Enable State.vi"/>
+		<Item Name="Get Minimum Log Level.vi" Type="VI" URL="../Get Minimum Log Level.vi"/>
+		<Item Name="Get All Logger Info.vi" Type="VI" URL="../Get All Logger Info.vi"/>
+		<Item Name="Set Minimum Log Level.vi" Type="VI" URL="../Set Minimum Log Level.vi"/>
+		<Item Name="Set All Minimum Log Level.vi" Type="VI" URL="../Set All Minimum Log Level.vi"/>
+		<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 		<Item Name="Unregister.vi" Type="VI" URL="../Unregister.vi"/>
 		<Item Name="Unregister All.vi" Type="VI" URL="../Unregister All.vi"/>
 		<Item Name="Stop.vi" Type="VI" URL="../Stop.vi"/>
