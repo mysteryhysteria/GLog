@@ -48,8 +48,8 @@
 		<Item Name="typedefs" Type="Folder">
 			<Item Name="Log Levels.ctl" Type="VI" URL="../Log Levels.ctl"/>
 			<Item Name="Failure Information.ctl" Type="VI" URL="../Failure Information.ctl"/>
-			<Item Name="Internal Log Levels.ctl" Type="VI" URL="../logger_class/Internal Log Levels.ctl"/>
 			<Item Name="Log Record.ctl" Type="VI" URL="../Log Record.ctl"/>
+			<Item Name="Internal Log Levels.ctl" Type="VI" URL="../logger_class/Internal Log Levels.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="behavior classes" Type="Folder">
