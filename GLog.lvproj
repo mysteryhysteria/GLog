@@ -14,6 +14,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="reuse lib" Type="Folder">
+			<Item Name="Utilities.lvlib" Type="Library" URL="../dependencies/Utilities/Utilities.lvlib"/>
+			<Item Name="Unit Testing Framework.lvlib" Type="Library" URL="../../unit_testing_fw/Unit Testing Framework.lvlib"/>
+		</Item>
 		<Item Name="examples" Type="Folder">
 			<Item Name="demo" Type="Folder">
 				<Item Name="Update Logger List.vi" Type="VI" URL="../src/examples/demo_support/Update Logger List.vi"/>
@@ -153,7 +157,7 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
-				<Item Name="Range Limits for Type.vim" Type="VI" URL="/&lt;vilib&gt;/Numeric/Range Limits for Type.vim"/>
+				<Item Name="Range Limits for Type.vim" Type="VI" URL="/&lt;vilib&gt;/numeric/Range Limits for Type.vim"/>
 				<Item Name="Caraya.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlib"/>
 				<Item Name="7842910552F72B45FFAA5B67DFEBCBC5Timestamp to ISO8601 UTC DateTime.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/7842910552F72B45FFAA5B67DFEBCBC5Timestamp to ISO8601 UTC DateTime.vi"/>
 				<Item Name="7842910552F72B45FFAA5B67DFEBCBC5Get Local UTC Offset.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/7842910552F72B45FFAA5B67DFEBCBC5Get Local UTC Offset.vi"/>
@@ -283,8 +287,6 @@
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="No of Elements in Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/No of Elements in Cluster__ogtk.vi"/>
 			</Item>
-			<Item Name="Utilities.lvlib" Type="Library" URL="../../reuse_library/Utilities/Utilities.lvlib"/>
-			<Item Name="Unit Testing Framework.lvlib" Type="Library" URL="../../unit_testing_fw/Unit Testing Framework.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
