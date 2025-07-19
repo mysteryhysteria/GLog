@@ -1,0 +1,8 @@
+Internal, Logger Initialized
+Trace, Trace
+Debug, Debug
+Info, Info
+Warning, Warning
+Error, Error
+Critical, Critical
+Internal, Logger Destroyed

@@ -1,0 +1,114 @@
+{
+	"vi":".\\test_regex filter.vi",
+	"vectors":[
+		{
+			"inputs":{
+				"regexes"				:["^1st$"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"regexes"				:["^2nd$"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"regexes"				:["^3rd$"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"regexes"				:["^.th$"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"All",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"regexes"				:["^1st$","^2nd$","^3rd$"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"Any",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"regexes"				:["^1st$","^2nd$","^3rd$"],
+				"match behavior"		:"Discard",
+				"aggregation method"	:"Any",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		},
+		{
+			"inputs":{
+				"regexes"				:["^1st$","^2nd$","^3rd$"],
+				"match behavior"		:"Keep",
+				"aggregation method"	:"None",
+				"directory"				:"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"error in"				:{"status":false, "code":0, "source":""}
+			},
+			"outputs":{
+				"failure info"			:null,
+				"error out"				:{"status":false, "code":0, "source":""}
+			}
+		}
+	],
+	"environments":[
+		{
+			"class":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\Environment.LogFile\\Environment.LogFile.lvclass",
+			"setup":{
+				"log directory":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\logs\\test",
+				"result directory":"C:\\Users\\Colin\\Documents\\software_projects\\labview\\glog\\src\\tests\\API\\regex filter"
+			},
+			"vectors":[
+				".\\first.result",
+				".\\second.result",
+				".\\third.result",
+				".\\has_th.result",
+				".\\medal.result",
+				".\\non-medal.result",
+				".\\non-medal.result"
+			]
+		}
+	]
+}
