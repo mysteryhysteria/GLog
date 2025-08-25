@@ -42,7 +42,7 @@
 			<Item Name="Disable All Loggers.vi" Type="VI" URL="../Disable All Loggers.vi"/>
 			<Item Name="Unregister Loggers.vi" Type="VI" URL="../Unregister Loggers.vi"/>
 			<Item Name="Unregister Logger by Name.vi" Type="VI" URL="../Unregister Logger by Name.vi"/>
-			<Item Name="Get All Logger Info.vi" Type="VI" URL="../Get All Logger Info.vi"/>
+			<Item Name="Get Properties.vi" Type="VI" URL="../Get Properties.vi"/>
 			<Item Name="Set Minimum Log Level.vi" Type="VI" URL="../Set Minimum Log Level.vi"/>
 			<Item Name="Set All Minimum Log Level.vi" Type="VI" URL="../Set All Minimum Log Level.vi"/>
 		</Item>
