@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-08-24 20:32:21" Creator="Colin" Comments="" ID="2a9b3271c13a082b145f70b9afa7fbcd">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-08-24 23:10:07" Creator="Colin" Comments="" ID="f7bf7f629c50123031cd7ea287d67ef9">
   <Library_General_Settings>
     <Package_File_Name>NQE_GLog</Package_File_Name>
-    <Library_Version>1.0.0.17</Library_Version>
+    <Library_Version>1.0.0.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vipm_packages</Library_Output_Folder>
@@ -707,7 +707,7 @@ Features:
         <Path>src\api\logger_class</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>21497965D5796FF44EB8AB607B92443D</GUID>
+      <GUID>DDA54FC1A8B7BBC861CA6E456172A128</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -784,7 +784,7 @@ Features:
         <Path>src\examples\API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67CAFC8C4E8780374173882F104AFDEB</GUID>
+      <GUID>52B385E03772733099EA41778FA1129B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -861,7 +861,7 @@ Features:
         <Path>src\api\configuration\scopes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51275EE28130B15B266F860E4DD8FF44</GUID>
+      <GUID>0E297BD895A67E6DD9255FB08F133AF4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1022,7 +1022,7 @@ Features:
         <Path>src\api\logger_class\Generate Log Record.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1F2DC4085319ECAC336B54A7085284E</GUID>
+      <GUID>DE378CC9CC5977EDF00C6F822F8C404E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1085,7 +1085,7 @@ Features:
         <Path>src\api\configuration\filters\data_item_filter\New Data Item Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3B865EB1C555B85BB33843CB0DD05A8</GUID>
+      <GUID>E2F53673FA085CD953770E00CB320225</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1134,7 +1134,7 @@ Features:
         <Path>src\api\configuration\formatters\format_string_formatter\New F-String Formatter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90E0A871104DBE0C4CA4A9A029F17BF0</GUID>
+      <GUID>599ED2FCEE25737AB8119B7EB0C2B115</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1183,7 +1183,7 @@ Features:
         <Path>src\api\configuration\handlers\file_handler\New File Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>540AE21432BCD2FBE41D1CC53A5F15C5</GUID>
+      <GUID>6514B03A95A7A307938A978CF24F3D9F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1218,7 +1218,7 @@ Features:
         <Path>src\api\configuration\scopes\basic_scope\New Basic Scope.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>08D33B37E24F261272EF399D8216B604</GUID>
+      <GUID>B04FC3C203CA9D5809A25402EDB9F92B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
