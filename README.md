@@ -1,6 +1,8 @@
 # GLog
 Simple, Configurable, and Extensible logger library for LabVIEW.
 
+[![Image](https://www.vipm.io/package/nqe_glog/badge.svg?metric=installs)](https://www.vipm.io/package/nqe_glog/) [![Image](https://www.vipm.io/package/nqe_glog/badge.svg?metric=stars)](https://www.vipm.io/package/nqe_glog/)
+
 ![Simple Example](./docs/assets/banner.png)
 
 This project is a logging framework designed to make application logging in LabVIEW easy. The library ships with features that cover most basic logging needs with minimal configuration, and provides an extensible API that makes creating advanced logging solutions much simpler. It was created with the following design goals in mind:
