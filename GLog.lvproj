@@ -103,6 +103,7 @@
 			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../build/Post-Build Custom Action.vi"/>
 			<Item Name="GLog.vipb" Type="Document" URL="../GLog.vipb"/>
 		</Item>
+		<Item Name="GLog_Malleables.lvlib" Type="Library" URL="../src/api/GLog_Malleables/GLog_Malleables.lvlib"/>
 		<Item Name="GLog.lvlib" Type="Library" URL="../src/api/GLog.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -301,6 +302,9 @@
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="No of Elements in Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/No of Elements in Cluster__ogtk.vi"/>
 			</Item>
+			<Item Name="Info.vim" Type="VI" URL="../src/api/Info.vim"/>
+			<Item Name="Debug.vim" Type="VI" URL="../src/api/Debug.vim"/>
+			<Item Name="Trace.vim" Type="VI" URL="../src/api/Trace.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

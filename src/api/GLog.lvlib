@@ -9,30 +9,6 @@
 
 </Property>
 	<Item Name="API" Type="Folder">
-		<Item Name="logging" Type="Folder">
-			<Item Name="w/dataflow" Type="Folder">
-				<Item Name="Trace DF.vim" Type="VI" URL="../Trace DF.vim"/>
-				<Item Name="Debug DF.vim" Type="VI" URL="../Debug DF.vim"/>
-				<Item Name="Info DF.vim" Type="VI" URL="../Info DF.vim"/>
-				<Item Name="Warning DF.vim" Type="VI" URL="../Warning DF.vim"/>
-				<Item Name="Error DF.vim" Type="VI" URL="../Error DF.vim"/>
-				<Item Name="Critical DF.vim" Type="VI" URL="../Critical DF.vim"/>
-			</Item>
-			<Item Name="conditional" Type="Folder">
-				<Item Name="Trace If.vim" Type="VI" URL="../Trace If.vim"/>
-				<Item Name="Debug If.vim" Type="VI" URL="../Debug If.vim"/>
-				<Item Name="Info If.vim" Type="VI" URL="../Info If.vim"/>
-				<Item Name="Warning If.vim" Type="VI" URL="../Warning If.vim"/>
-				<Item Name="Error If.vim" Type="VI" URL="../Error If.vim"/>
-				<Item Name="Critical If.vim" Type="VI" URL="../Critical If.vim"/>
-			</Item>
-			<Item Name="Trace.vim" Type="VI" URL="../Trace.vim"/>
-			<Item Name="Debug.vim" Type="VI" URL="../Debug.vim"/>
-			<Item Name="Info.vim" Type="VI" URL="../Info.vim"/>
-			<Item Name="Warning.vim" Type="VI" URL="../Warning.vim"/>
-			<Item Name="Error.vim" Type="VI" URL="../Error.vim"/>
-			<Item Name="Critical.vim" Type="VI" URL="../Critical.vim"/>
-		</Item>
 		<Item Name="control" Type="Folder">
 			<Item Name="Register Logger.vi" Type="VI" URL="../Register Logger.vi"/>
 			<Item Name="List Loggers.vi" Type="VI" URL="../List Loggers.vi"/>
@@ -52,6 +28,7 @@
 			<Item Name="Log Record.ctl" Type="VI" URL="../Log Record.ctl"/>
 			<Item Name="Internal Log Levels.ctl" Type="VI" URL="../logger_class/Internal Log Levels.ctl"/>
 		</Item>
+		<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 	</Item>
 	<Item Name="behavior classes" Type="Folder">
 		<Item Name="abstract" Type="Folder">
