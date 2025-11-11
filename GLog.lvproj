@@ -302,9 +302,6 @@
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="No of Elements in Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/No of Elements in Cluster__ogtk.vi"/>
 			</Item>
-			<Item Name="Info.vim" Type="VI" URL="../src/api/Info.vim"/>
-			<Item Name="Debug.vim" Type="VI" URL="../src/api/Debug.vim"/>
-			<Item Name="Trace.vim" Type="VI" URL="../src/api/Trace.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GLog PPL Test" Type="Packed Library">
