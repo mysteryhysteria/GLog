@@ -306,6 +306,49 @@
 			<Item Name="Debug.vim" Type="VI" URL="../src/api/Debug.vim"/>
 			<Item Name="Trace.vim" Type="VI" URL="../src/api/Trace.vim"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="GLog PPL Test" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{028D580E-209C-4A67-B668-96B9566CC67E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GLog PPL Test</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/PPL Test</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{138528CA-DDB9-4C5B-B4F5-7482CCD43463}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">GLog.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/PPL Test/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/PPL Test</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{365E40B3-3AC2-4A14-8C75-543B874AE559}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GLog.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">None</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GLog PPL Test</Property>
+				<Property Name="TgtF_internalName" Type="Str">GLog PPL Test</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 None</Property>
+				<Property Name="TgtF_productName" Type="Str">GLog PPL Test</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EF226257-80F9-4379-844F-B3C4ED910722}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GLog.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
