@@ -30,40 +30,43 @@
 			<Item Name="Demo.vi" Type="VI" URL="../src/examples/Demo.vi"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
-			<Item Name="mock classes" Type="Folder">
-				<Item Name="test_handler" Type="Folder">
-					<Item Name="Test Handler.lvclass" Type="LVClass" URL="../src/tests/custom_classes/test_handler/Test Handler.lvclass"/>
+			<Item Name="unit tests" Type="Folder">
+				<Item Name="mock classes" Type="Folder">
+					<Item Name="test_handler" Type="Folder">
+						<Item Name="Test Handler.lvclass" Type="LVClass" URL="../src/tests/custom_classes/test_handler/Test Handler.lvclass"/>
+					</Item>
 				</Item>
-			</Item>
-			<Item Name="handlers" Type="Folder">
-				<Item Name="string handler" Type="Folder">
-					<Item Name="Functional Test.vi" Type="VI" URL="../src/tests/handlers/string handler/Functional Test.vi"/>
+				<Item Name="handlers" Type="Folder">
+					<Item Name="string handler" Type="Folder">
+						<Item Name="Functional Test.vi" Type="VI" URL="../src/tests/handlers/string handler/Functional Test.vi"/>
+					</Item>
+					<Item Name="file_handler" Type="Folder">
+						<Item Name="File Rollover.vi" Type="VI" URL="../src/tests/handlers/file_handler/File Rollover.vi"/>
+					</Item>
 				</Item>
-				<Item Name="file_handler" Type="Folder">
-					<Item Name="File Rollover.vi" Type="VI" URL="../src/tests/handlers/file_handler/File Rollover.vi"/>
+				<Item Name="scopes" Type="Folder">
+					<Item Name="Call First SubVI Async.vi" Type="VI" URL="../src/tests/scopes/Call First SubVI Async.vi"/>
+					<Item Name="Scope Tester Library.lvlib" Type="Library" URL="../src/tests/scopes/Scope Tester Library.lvlib"/>
+					<Item Name="Scope Tester.vi" Type="VI" URL="../src/tests/scopes/Scope Tester.vi"/>
+					<Item Name="Third SubVI.vi" Type="VI" URL="../src/tests/scopes/Third SubVI.vi"/>
 				</Item>
+				<Item Name="registry" Type="Folder">
+					<Item Name="Multiple Register.vi" Type="VI" URL="../src/registry/tests/Multiple Register.vi"/>
+					<Item Name="Single Register.vi" Type="VI" URL="../src/registry/tests/Single Register.vi"/>
+				</Item>
+				<Item Name="API" Type="Folder" URL="../src/tests/API">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
+				<Item Name="helpers" Type="Folder">
+					<Item Name="New Test File Handler.vi" Type="VI" URL="../src/tests/helpers/New Test File Handler.vi"/>
+				</Item>
+				<Item Name="Compare Log Records.vi" Type="VI" URL="../src/tests/Compare Log Records.vi"/>
+				<Item Name="Recoverable Errors.vi" Type="VI" URL="../src/tests/Recoverable Errors.vi"/>
+				<Item Name="Unrecoverable Formatter Error.vi" Type="VI" URL="../src/tests/Unrecoverable Formatter Error.vi"/>
+				<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../src/tests/Unrecoverable Writer Error.vi"/>
+				<Item Name="Environment.LogFile.lvclass" Type="LVClass" URL="../src/tests/Environment.LogFile/Environment.LogFile.lvclass"/>
 			</Item>
-			<Item Name="scopes" Type="Folder">
-				<Item Name="Call First SubVI Async.vi" Type="VI" URL="../src/tests/scopes/Call First SubVI Async.vi"/>
-				<Item Name="Scope Tester Library.lvlib" Type="Library" URL="../src/tests/scopes/Scope Tester Library.lvlib"/>
-				<Item Name="Scope Tester.vi" Type="VI" URL="../src/tests/scopes/Scope Tester.vi"/>
-				<Item Name="Third SubVI.vi" Type="VI" URL="../src/tests/scopes/Third SubVI.vi"/>
-			</Item>
-			<Item Name="registry" Type="Folder">
-				<Item Name="Multiple Register.vi" Type="VI" URL="../src/registry/tests/Multiple Register.vi"/>
-				<Item Name="Single Register.vi" Type="VI" URL="../src/registry/tests/Single Register.vi"/>
-			</Item>
-			<Item Name="API" Type="Folder" URL="../src/tests/API">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
-			<Item Name="helpers" Type="Folder">
-				<Item Name="New Test File Handler.vi" Type="VI" URL="../src/tests/helpers/New Test File Handler.vi"/>
-			</Item>
-			<Item Name="Compare Log Records.vi" Type="VI" URL="../src/tests/Compare Log Records.vi"/>
-			<Item Name="Recoverable Errors.vi" Type="VI" URL="../src/tests/Recoverable Errors.vi"/>
-			<Item Name="Unrecoverable Formatter Error.vi" Type="VI" URL="../src/tests/Unrecoverable Formatter Error.vi"/>
-			<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../src/tests/Unrecoverable Writer Error.vi"/>
-			<Item Name="Environment.LogFile.lvclass" Type="LVClass" URL="../src/tests/Environment.LogFile/Environment.LogFile.lvclass"/>
+			<Item Name="Test API.vi" Type="VI" URL="../package_tests/Test API.vi"/>
 		</Item>
 		<Item Name="docs" Type="Folder">
 			<Item Name="assets" Type="Folder">
