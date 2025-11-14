@@ -31,42 +31,37 @@
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="unit tests" Type="Folder">
-				<Item Name="mock classes" Type="Folder">
-					<Item Name="test_handler" Type="Folder">
-						<Item Name="Test Handler.lvclass" Type="LVClass" URL="../src/tests/custom_classes/test_handler/Test Handler.lvclass"/>
-					</Item>
-				</Item>
-				<Item Name="handlers" Type="Folder">
-					<Item Name="string handler" Type="Folder">
-						<Item Name="Functional Test.vi" Type="VI" URL="../src/tests/handlers/string handler/Functional Test.vi"/>
-					</Item>
-					<Item Name="file_handler" Type="Folder">
-						<Item Name="File Rollover.vi" Type="VI" URL="../src/tests/handlers/file_handler/File Rollover.vi"/>
-					</Item>
-				</Item>
-				<Item Name="scopes" Type="Folder">
-					<Item Name="Call First SubVI Async.vi" Type="VI" URL="../src/tests/scopes/Call First SubVI Async.vi"/>
-					<Item Name="Scope Tester Library.lvlib" Type="Library" URL="../src/tests/scopes/Scope Tester Library.lvlib"/>
-					<Item Name="Scope Tester.vi" Type="VI" URL="../src/tests/scopes/Scope Tester.vi"/>
-					<Item Name="Third SubVI.vi" Type="VI" URL="../src/tests/scopes/Third SubVI.vi"/>
-				</Item>
-				<Item Name="registry" Type="Folder">
-					<Item Name="Multiple Register.vi" Type="VI" URL="../src/registry/tests/Multiple Register.vi"/>
-					<Item Name="Single Register.vi" Type="VI" URL="../src/registry/tests/Single Register.vi"/>
-				</Item>
-				<Item Name="API" Type="Folder" URL="../src/tests/API">
+				<Item Name="API" Type="Folder" URL="../tests/API">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
-				<Item Name="helpers" Type="Folder">
-					<Item Name="New Test File Handler.vi" Type="VI" URL="../src/tests/helpers/New Test File Handler.vi"/>
+				<Item Name="support" Type="Folder">
+					<Item Name="New Test File Handler.vi" Type="VI" URL="../tests/helpers/New Test File Handler.vi"/>
+					<Item Name="Test Handler.lvclass" Type="LVClass" URL="../tests/custom_classes/test_handler/Test Handler.lvclass"/>
 				</Item>
-				<Item Name="Compare Log Records.vi" Type="VI" URL="../src/tests/Compare Log Records.vi"/>
-				<Item Name="Recoverable Errors.vi" Type="VI" URL="../src/tests/Recoverable Errors.vi"/>
-				<Item Name="Unrecoverable Formatter Error.vi" Type="VI" URL="../src/tests/Unrecoverable Formatter Error.vi"/>
-				<Item Name="Unrecoverable Writer Error.vi" Type="VI" URL="../src/tests/Unrecoverable Writer Error.vi"/>
-				<Item Name="Environment.LogFile.lvclass" Type="LVClass" URL="../src/tests/Environment.LogFile/Environment.LogFile.lvclass"/>
+				<Item Name="framework" Type="Folder">
+					<Item Name="Environment.LogFile.lvclass" Type="LVClass" URL="../tests/Environment.LogFile/Environment.LogFile.lvclass"/>
+				</Item>
 			</Item>
-			<Item Name="Test API.vi" Type="VI" URL="../package_tests/Test API.vi"/>
+			<Item Name="handlers" Type="Folder">
+				<Item Name="string handler" Type="Folder">
+					<Item Name="Functional Test.vi" Type="VI" URL="../tests/handlers/string handler/Functional Test.vi"/>
+				</Item>
+				<Item Name="file_handler" Type="Folder">
+					<Item Name="File Rollover.vi" Type="VI" URL="../tests/handlers/file_handler/File Rollover.vi"/>
+				</Item>
+			</Item>
+			<Item Name="scopes" Type="Folder">
+				<Item Name="support" Type="Folder"/>
+				<Item Name="Call First SubVI Async.vi" Type="VI" URL="../tests/scopes/Call First SubVI Async.vi"/>
+				<Item Name="Scope Tester Library.lvlib" Type="Library" URL="../tests/scopes/Scope Tester Library.lvlib"/>
+				<Item Name="Scope Tester.vi" Type="VI" URL="../tests/scopes/Scope Tester.vi"/>
+				<Item Name="Third SubVI.vi" Type="VI" URL="../tests/scopes/Third SubVI.vi"/>
+			</Item>
+			<Item Name="registry" Type="Folder">
+				<Item Name="Multiple Register.vi" Type="VI" URL="../src/registry/tests/Multiple Register.vi"/>
+				<Item Name="Single Register.vi" Type="VI" URL="../src/registry/tests/Single Register.vi"/>
+			</Item>
+			<Item Name="Backwards Compatibility.vi" Type="VI" URL="../tests/Backwards Compatibility.vi"/>
 		</Item>
 		<Item Name="docs" Type="Folder">
 			<Item Name="assets" Type="Folder">
@@ -100,14 +95,9 @@
 			</Item>
 			<Item Name="docs.md" Type="Document" URL="../docs/docs.md"/>
 		</Item>
-		<Item Name="build" Type="Folder">
-			<Item Name="Repack Package.vi" Type="VI" URL="../build/Repack Package.vi"/>
-			<Item Name="Unpack Package.vi" Type="VI" URL="../build/Unpack Package.vi"/>
-			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../build/Post-Build Custom Action.vi"/>
-			<Item Name="GLog.vipb" Type="Document" URL="../GLog.vipb"/>
-		</Item>
 		<Item Name="GLog_Malleables.lvlib" Type="Library" URL="../src/api/GLog_Malleables/GLog_Malleables.lvlib"/>
 		<Item Name="GLog.lvlib" Type="Library" URL="../src/api/GLog.lvlib"/>
+		<Item Name="GLog.vipb" Type="Document" URL="../GLog.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
@@ -146,8 +136,6 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
@@ -264,14 +252,8 @@
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Show in File System.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Show in File System.vi"/>
-				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
-				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
-				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
-				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
-				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
-				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -305,7 +287,6 @@
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="No of Elements in Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/No of Elements in Cluster__ogtk.vi"/>
 			</Item>
-			<Item Name="Log Levels.ctl" Type="VI" URL="../src/api/Log Levels.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GLog PPL Test" Type="Packed Library">
