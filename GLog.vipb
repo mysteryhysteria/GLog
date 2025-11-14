@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-11-13 16:40:57" Creator="Colin" Comments="" ID="17c7cf46db58798b314ce0de766ec51a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-11-14 10:59:14" Creator="Colin" Comments="" ID="147ed361ef0da0571d47471c99a653a6">
   <Library_General_Settings>
     <Package_File_Name>NQE_GLog</Package_File_Name>
     <Library_Version>1.1.0.2</Library_Version>
@@ -55,8 +55,14 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
       <Copyright>Copyright (c) 2025, Colin Nordquist</Copyright>
       <Packager>Colin Nordquist</Packager>
       <URL>https://github.com/mysteryhysteria/GLog/tree/main</URL>
-      <Release_Notes>- Refactored the API into 2 separate libraries to facilitate using the library as a PPL.
-</Release_Notes>
+      <Release_Notes>Features:
+- [ISSUE-12] Refactored the API into 2 separate libraries to facilitate using the library as a PPL.
+- [ISSUE-04] Added a public VI to allow users to programmatically choose the log level of a log call.
+
+Bugfixes:
+- [ISSUE-19] Fixed bug where the  Format String Formatter would remove the VI name from the call chain if the call chain element was a cloneable VI and "remove namespaces?" was set to True. 
+
+Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -699,7 +705,7 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
         <Path>src\api\GLog_Malleables\Critical If.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>003A595AA3C51A935F04F897A3A24682</GUID>
+      <GUID>F6B26F60532F560E024A997451F84179</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -776,7 +782,7 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
         <Path>src\examples\API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>681DA5A0E8EDBF8102A20E15F8F88E43</GUID>
+      <GUID>ED54D2BBF05F3F705AB71D9FA7C7F130</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -853,7 +859,7 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
         <Path>src\api\configuration\scopes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE3D8FF60F94600D89DFC29144DF278F</GUID>
+      <GUID>8CC942A024510705AF34594F1A4FF2F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1014,7 +1020,7 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
         <Path>src\api\logger_class\Generate Log Record.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>892ECDDEB050A969F0AEDC13B03EEAF4</GUID>
+      <GUID>8B0BA3DDF56977C1401327843A4B240F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1077,7 +1083,7 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
         <Path>src\api\configuration\filters\data_item_filter\New Data Item Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4069EB568D02158E2A40B7684AFE3CF</GUID>
+      <GUID>CDA4523F32F426C08DA9A68F1EB70A7B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1126,7 +1132,7 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
         <Path>src\api\configuration\formatters\format_string_formatter\New F-String Formatter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62417DBB5356EABDAAA7B67C6840DBEE</GUID>
+      <GUID>59ABEB5D355B2B3ABEC6E0BD288BA03C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1175,7 +1181,7 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
         <Path>src\api\configuration\handlers\file_handler\New File Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE8A9F867E377D57F5B1FEFA657D4B70</GUID>
+      <GUID>48C918D0BC4E93D370C3BE1B21A80F40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1210,7 +1216,7 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
         <Path>src\api\configuration\scopes\basic_scope\New Basic Scope.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>953E23218DF20FF5A8931A0B50600205</GUID>
+      <GUID>8FB4AFE81B372B513CD4F5152767A58C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
