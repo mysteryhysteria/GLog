@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="18008000">
 	<Property Name="NI.Lib.Icon" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\:3R=1)R%%7`01[=UI'(&amp;D&lt;R$!%*,&gt;$#NE$K%%L9&amp;MC*,H!$/_[!&amp;GD!A`%\M&gt;T9W!/*0?0!UKXO\K_U_U\337LF8LL4Y6J:83QH0_([^PAYP!^_L9;&lt;_ENHY\5;RJ@`S`AT`_K4`Z3`&lt;\`,@Y(`7N(&amp;]O``^`^N``8N`84^*`D&gt;)NUU5CSRQ"ST^H7(2%`U2%`U2%`U1!`U1!`U1!^U2X&gt;U2X&gt;U2X&gt;U1T&gt;U1T&gt;U1T@U6N'&amp;,H3B-SN*]C22%D1*E(1'25G4]#1]#5`#Q[M3HI1HY5FY%B[[+/&amp;*?"+?B#@B9:A3HI1HY5FY%BZ#.:*M&amp;2W?B)@Q#HA#HI!HY!FY3+G!*Q!)EA7"AS"A+(!'$Q&amp;0Q"0Q]+C!*_!*?!+?A!?X!J[!*_!*?!)?BL2:C5&lt;46X2Y##/(R_&amp;R?"Q?BY@1=HA=(I@(Y8&amp;Y3#?(R_&amp;R)*S%4H!1Z!RS/DAP$I`$QUU/D]0D]$A]$A_ONE,?:K;H[3M[0!;0Q70Q'$Q'$S&amp;E]"A]"I`"9`!16A;0Q70Q'$Q'$[FE]"A]"I]"9C1FP9RARE#DES%90&amp;RNNVB&lt;J7AEVGL^GM?.KNK!KIWFWD#KD;";9.8#K2:%.&gt;'K#62.D/K$62_C!F1F6A65&gt;&gt;3/&gt;INVW"J&lt;9ANMDMWQ-4&lt;KB`ZQR^VOJ_VWK[\LN&amp;[PN6QON6AM.*`0.:P.."[0.2K.BN0KA8IM.R`0J&lt;@*SX4`ODHM*ZPJPNM]PTW_4%__*`L_BBX0J&lt;^Q.OJ7BQ`(0(0U$PU]B4]!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">18.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -10,56 +11,56 @@
 </Property>
 	<Item Name="API" Type="Folder">
 		<Item Name="control" Type="Folder">
-			<Item Name="Register Logger.vi" Type="VI" URL="../Register Logger.vi"/>
-			<Item Name="List Loggers.vi" Type="VI" URL="../List Loggers.vi"/>
-			<Item Name="Enable Logger by Name.vi" Type="VI" URL="../Enable Logger by Name.vi"/>
-			<Item Name="Enable All Loggers.vi" Type="VI" URL="../Enable All Loggers.vi"/>
-			<Item Name="Disable Logger by Name.vi" Type="VI" URL="../Disable Logger by Name.vi"/>
-			<Item Name="Disable All Loggers.vi" Type="VI" URL="../Disable All Loggers.vi"/>
-			<Item Name="Unregister Loggers.vi" Type="VI" URL="../Unregister Loggers.vi"/>
-			<Item Name="Unregister Logger by Name.vi" Type="VI" URL="../Unregister Logger by Name.vi"/>
-			<Item Name="Get Properties.vi" Type="VI" URL="../Get Properties.vi"/>
-			<Item Name="Set Minimum Log Level.vi" Type="VI" URL="../Set Minimum Log Level.vi"/>
-			<Item Name="Set All Minimum Log Level.vi" Type="VI" URL="../Set All Minimum Log Level.vi"/>
+			<Item Name="Register Logger.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Register Logger.vi"/>
+			<Item Name="List Loggers.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/List Loggers.vi"/>
+			<Item Name="Enable Logger by Name.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Enable Logger by Name.vi"/>
+			<Item Name="Enable All Loggers.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Enable All Loggers.vi"/>
+			<Item Name="Disable Logger by Name.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Disable Logger by Name.vi"/>
+			<Item Name="Disable All Loggers.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Disable All Loggers.vi"/>
+			<Item Name="Unregister Loggers.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Unregister Loggers.vi"/>
+			<Item Name="Unregister Logger by Name.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Unregister Logger by Name.vi"/>
+			<Item Name="Get Properties.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Get Properties.vi"/>
+			<Item Name="Set Minimum Log Level.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Set Minimum Log Level.vi"/>
+			<Item Name="Set All Minimum Log Level.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Set All Minimum Log Level.vi"/>
 		</Item>
 		<Item Name="typedefs" Type="Folder"/>
-		<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
+		<Item Name="Log.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Log.vi"/>
 	</Item>
 	<Item Name="behavior classes" Type="Folder">
 		<Item Name="abstract" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-			<Item Name="Formatting Handler.lvclass" Type="LVClass" URL="../extension/formatting_handler_interface/Formatting Handler.lvclass"/>
-			<Item Name="Direct Handler.lvclass" Type="LVClass" URL="../extension/direct_handler_interface/Direct Handler.lvclass"/>
-			<Item Name="Filter.lvclass" Type="LVClass" URL="../extension/filter_interface/Filter.lvclass"/>
-			<Item Name="Scope.lvclass" Type="LVClass" URL="../extension/scope_interface/Scope.lvclass"/>
-			<Item Name="Formatter.lvclass" Type="LVClass" URL="../extension/formatter_interface/Formatter.lvclass"/>
+			<Item Name="Formatting Handler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/extension/formatting_handler_interface/Formatting Handler.lvclass"/>
+			<Item Name="Direct Handler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/extension/direct_handler_interface/Direct Handler.lvclass"/>
+			<Item Name="Filter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/extension/filter_interface/Filter.lvclass"/>
+			<Item Name="Scope.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/extension/scope_interface/Scope.lvclass"/>
+			<Item Name="Formatter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/extension/formatter_interface/Formatter.lvclass"/>
 		</Item>
 		<Item Name="scopes" Type="Folder">
-			<Item Name="Basic.lvclass" Type="LVClass" URL="../configuration/scopes/basic_scope/Basic.lvclass"/>
+			<Item Name="Basic.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/configuration/scopes/basic_scope/Basic.lvclass"/>
 		</Item>
 		<Item Name="filters" Type="Folder">
 			<Item Name="typedefs" Type="Folder">
 				<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-				<Item Name="Match Behavior.ctl" Type="VI" URL="../extension/filter_interface/Match Behavior.ctl"/>
-				<Item Name="Aggregation Method.ctl" Type="VI" URL="../extension/filter_interface/Aggregation Method.ctl"/>
+				<Item Name="Match Behavior.ctl" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/extension/filter_interface/Match Behavior.ctl"/>
+				<Item Name="Aggregation Method.ctl" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/extension/filter_interface/Aggregation Method.ctl"/>
 			</Item>
-			<Item Name="Regex.lvclass" Type="LVClass" URL="../configuration/filters/regex_filter/Regex.lvclass"/>
-			<Item Name="Data Item.lvclass" Type="LVClass" URL="../configuration/filters/data_item_filter/Data Item.lvclass"/>
-			<Item Name="Combination.lvclass" Type="LVClass" URL="../configuration/filters/combination_filter/Combination.lvclass"/>
+			<Item Name="Regex.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/configuration/filters/regex_filter/Regex.lvclass"/>
+			<Item Name="Data Item.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/configuration/filters/data_item_filter/Data Item.lvclass"/>
+			<Item Name="Combination.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/configuration/filters/combination_filter/Combination.lvclass"/>
 		</Item>
 		<Item Name="handlers" Type="Folder">
-			<Item Name="File Handler.lvclass" Type="LVClass" URL="../configuration/handlers/file_handler/File Handler.lvclass"/>
-			<Item Name="String Handler.lvclass" Type="LVClass" URL="../configuration/handlers/string_handler/String Handler.lvclass"/>
+			<Item Name="File Handler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/configuration/handlers/file_handler/File Handler.lvclass"/>
+			<Item Name="String Handler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/configuration/handlers/string_handler/String Handler.lvclass"/>
 		</Item>
 		<Item Name="formatters" Type="Folder">
-			<Item Name="JSON.lvclass" Type="LVClass" URL="../configuration/formatters/JSON_formatter/JSON.lvclass"/>
-			<Item Name="Format String.lvclass" Type="LVClass" URL="../configuration/formatters/format_string_formatter/Format String.lvclass"/>
+			<Item Name="JSON.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/configuration/formatters/JSON_formatter/JSON.lvclass"/>
+			<Item Name="Format String.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/configuration/formatters/format_string_formatter/Format String.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="internal" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Registry.lvlib" Type="Library" URL="../../registry/Registry.lvlib"/>
-		<Item Name="Mark Error.vi" Type="VI" URL="../Mark Error.vi"/>
+		<Item Name="Registry.lvlib" Type="Library" URL="/&lt;vilib&gt;/NQE/GLog/src/registry/Registry.lvlib"/>
+		<Item Name="Mark Error.vi" Type="VI" URL="/&lt;vilib&gt;/NQE/GLog/src/api/Mark Error.vi"/>
 	</Item>
-	<Item Name="Logger.lvclass" Type="LVClass" URL="../logger_class/Logger.lvclass"/>
+	<Item Name="Logger.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NQE/GLog/src/api/logger_class/Logger.lvclass"/>
 </Library>
