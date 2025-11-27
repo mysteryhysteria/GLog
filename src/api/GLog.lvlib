@@ -9,20 +9,17 @@
 
 </Property>
 	<Item Name="API" Type="Folder">
-		<Item Name="control" Type="Folder">
-			<Item Name="Register Logger.vi" Type="VI" URL="../Register Logger.vi"/>
-			<Item Name="List Loggers.vi" Type="VI" URL="../List Loggers.vi"/>
-			<Item Name="Enable Logger by Name.vi" Type="VI" URL="../Enable Logger by Name.vi"/>
-			<Item Name="Enable All Loggers.vi" Type="VI" URL="../Enable All Loggers.vi"/>
-			<Item Name="Disable Logger by Name.vi" Type="VI" URL="../Disable Logger by Name.vi"/>
-			<Item Name="Disable All Loggers.vi" Type="VI" URL="../Disable All Loggers.vi"/>
-			<Item Name="Unregister Loggers.vi" Type="VI" URL="../Unregister Loggers.vi"/>
-			<Item Name="Unregister Logger by Name.vi" Type="VI" URL="../Unregister Logger by Name.vi"/>
-			<Item Name="Get Properties.vi" Type="VI" URL="../Get Properties.vi"/>
-			<Item Name="Set Minimum Log Level.vi" Type="VI" URL="../Set Minimum Log Level.vi"/>
-			<Item Name="Set All Minimum Log Level.vi" Type="VI" URL="../Set All Minimum Log Level.vi"/>
-		</Item>
-		<Item Name="typedefs" Type="Folder"/>
+		<Item Name="Register Logger.vi" Type="VI" URL="../Register Logger.vi"/>
+		<Item Name="List Loggers.vi" Type="VI" URL="../List Loggers.vi"/>
+		<Item Name="Enable Logger by Name.vi" Type="VI" URL="../Enable Logger by Name.vi"/>
+		<Item Name="Enable All Loggers.vi" Type="VI" URL="../Enable All Loggers.vi"/>
+		<Item Name="Disable Logger by Name.vi" Type="VI" URL="../Disable Logger by Name.vi"/>
+		<Item Name="Disable All Loggers.vi" Type="VI" URL="../Disable All Loggers.vi"/>
+		<Item Name="Unregister Loggers.vi" Type="VI" URL="../Unregister Loggers.vi"/>
+		<Item Name="Unregister Logger by Name.vi" Type="VI" URL="../Unregister Logger by Name.vi"/>
+		<Item Name="Get Properties.vi" Type="VI" URL="../Get Properties.vi"/>
+		<Item Name="Set Minimum Log Level.vi" Type="VI" URL="../Set Minimum Log Level.vi"/>
+		<Item Name="Set All Minimum Log Level.vi" Type="VI" URL="../Set All Minimum Log Level.vi"/>
 		<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 	</Item>
 	<Item Name="behavior classes" Type="Folder">
