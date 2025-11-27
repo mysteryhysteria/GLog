@@ -48,7 +48,13 @@
 			<Item Name="Combination.lvclass" Type="LVClass" URL="../configuration/filters/combination_filter/Combination.lvclass"/>
 		</Item>
 		<Item Name="handlers" Type="Folder">
-			<Item Name="File Handler.lvclass" Type="LVClass" URL="../configuration/handlers/file_handler/File Handler.lvclass"/>
+			<Item Name="file handler" Type="Folder">
+				<Item Name="Rollover Triggers" Type="Folder">
+					<Item Name="RolloverTrigger.lvclass" Type="LVClass" URL="../configuration/handlers/file_handler/RolloverTrigger/RolloverTrigger.lvclass"/>
+					<Item Name="RolloverTrigger.Size.lvclass" Type="LVClass" URL="../configuration/handlers/file_handler/RolloverTrigger.Size/RolloverTrigger.Size.lvclass"/>
+				</Item>
+				<Item Name="File Handler.lvclass" Type="LVClass" URL="../configuration/handlers/file_handler/File Handler.lvclass"/>
+			</Item>
 			<Item Name="String Handler.lvclass" Type="LVClass" URL="../configuration/handlers/string_handler/String Handler.lvclass"/>
 		</Item>
 		<Item Name="formatters" Type="Folder">
