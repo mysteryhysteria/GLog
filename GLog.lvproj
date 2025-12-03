@@ -48,6 +48,7 @@
 				</Item>
 				<Item Name="file_handler" Type="Folder">
 					<Item Name="File Rollover.vi" Type="VI" URL="../tests/handlers/file_handler/File Rollover.vi"/>
+					<Item Name="File Size Rollover_Log Record Exceeds Threshold.vi" Type="VI" URL="../tests/handlers/file_handler/File Size Rollover_Log Record Exceeds Threshold.vi"/>
 				</Item>
 			</Item>
 			<Item Name="scopes" Type="Folder">
