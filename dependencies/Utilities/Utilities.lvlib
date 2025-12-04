@@ -25,6 +25,9 @@
 		<Item Name="TODO.vi" Type="VI" URL="../TODO.vi"/>
 		<Item Name="Unreachable.vi" Type="VI" URL="../Unreachable.vi"/>
 	</Item>
+	<Item Name="Regex" Type="Folder">
+		<Item Name="Regex Match.vi" Type="VI" URL="../Regex Match.vi"/>
+	</Item>
 	<Item Name="Time" Type="Folder">
 		<Item Name="ISO 8601 UTC Format String.vi" Type="VI" URL="../ISO 8601 UTC Format String.vi"/>
 		<Item Name="Tick Count (ms) with Dataflow.vim" Type="VI" URL="../Tick Count (ms) with Dataflow.vim"/>
