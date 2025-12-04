@@ -30,6 +30,9 @@
 			<Item Name="Demo.vi" Type="VI" URL="../src/examples/Demo.vi"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
+			<Item Name="support" Type="Folder">
+				<Item Name="Test Logging Directory.vi" Type="VI" URL="../tests/support/Test Logging Directory.vi"/>
+			</Item>
 			<Item Name="unit tests" Type="Folder">
 				<Item Name="API" Type="Folder" URL="../tests/API">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -49,6 +52,7 @@
 				<Item Name="file_handler" Type="Folder">
 					<Item Name="File Rollover.vi" Type="VI" URL="../tests/handlers/file_handler/File Rollover.vi"/>
 					<Item Name="File Size Rollover_Log Record Exceeds Threshold.vi" Type="VI" URL="../tests/handlers/file_handler/File Size Rollover_Log Record Exceeds Threshold.vi"/>
+					<Item Name="Rollover Events.vi" Type="VI" URL="../tests/handlers/file_handler/Rollover Events.vi"/>
 				</Item>
 			</Item>
 			<Item Name="scopes" Type="Folder">
