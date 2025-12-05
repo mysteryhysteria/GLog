@@ -53,6 +53,7 @@
 					<Item Name="File Rollover.vi" Type="VI" URL="../tests/handlers/file_handler/File Rollover.vi"/>
 					<Item Name="File Size Rollover_Log Record Exceeds Threshold.vi" Type="VI" URL="../tests/handlers/file_handler/File Size Rollover_Log Record Exceeds Threshold.vi"/>
 					<Item Name="Rollover Events.vi" Type="VI" URL="../tests/handlers/file_handler/Rollover Events.vi"/>
+					<Item Name="Initialize to Existing File.vi" Type="VI" URL="../tests/handlers/file_handler/Initialize to Existing File.vi"/>
 				</Item>
 			</Item>
 			<Item Name="scopes" Type="Folder">
@@ -291,6 +292,9 @@
 				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="No of Elements in Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/No of Elements in Cluster__ogtk.vi"/>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
