@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-11-14 11:30:53" Creator="Colin" Comments="" ID="10528c5a5c3a557caa29243099356e92">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-25 21:52:35" Modified_Date="2025-12-05 15:03:35" Creator="Colin" Comments="" ID="1899db1a9b5e18a3e90bb65f6a19eecb">
   <Library_General_Settings>
     <Package_File_Name>NQE_GLog</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.2.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vipm_packages</Library_Output_Folder>
@@ -56,11 +56,17 @@ Check out the Examples as well as the Homepage and Docs to learn more. </Descrip
       <Packager>Colin Nordquist</Packager>
       <URL>https://github.com/mysteryhysteria/GLog/tree/main</URL>
       <Release_Notes>Features:
-- [ISSUE-12] Refactored the API into 2 separate libraries to facilitate using the library as a PPL.
-- [ISSUE-04] Added a public VI to allow users to programmatically choose the log level of a log call.
+- [ISSUE-25] Rollover Triggers have been added as an extendable interface for File Handlers. Users can now define custom Rollover Triggers which can be used by a File Handler to control precisely when log files rollover to a new file.
+- [ISSUE-26] File Update events have been added to the File Handler. Users can now access a User Event in their application-level event structure to be notified when a new log file is used. This occurs on handler startup and when a Rollover is triggered.
+- [ISSUE-30] The File Size Rollover trigger has better guarantees and properties regarding file size. Log files will always be either less than or equal to the configured Threshold value, or as small as possible in cases where the log record itself is larger than the Threshold value. If all log records can be guaranteed to be smaller than the Threshold value, all log files are also guaranteed to be smaller than the Threshold.
+- [ISSUE-31] The File Handler can now continue logging to a previously used file across application runs. If the Log File Name matches an existing file it will be used rather than creating a new file.
+- [ISSUE-32] The Log File Name can now be customized during configuration of the File Handler. The name supports using the "%T" format specifier to add a creation time-stamp in the file name.
 
 Bugfixes:
-- [ISSUE-19] Fixed bug where the  Format String Formatter would remove the VI name from the call chain if the call chain element was a cloneable VI and "remove namespaces?" was set to True. 
+- Fixed bug in the error handling of New Logger.vi where if an error was encountered during logger creation, the logger would not recognize that it was failed and continue to try to operate as normal. This caused unnecessary and confusing error popups from the logger.
+
+Breaking Changes:
+- The connector pane of New File Handler.vi is no longer backwards compatible after adding error handling terminals.
 
 Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
     </Description>
@@ -705,7 +711,7 @@ Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
         <Path>src\api\GLog_Malleables\Critical If.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B164F73605EDDACC882E03DF3FA9EE82</GUID>
+      <GUID>ECCAD262C04874CEA16FA54346B6A38C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -782,7 +788,7 @@ Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
         <Path>src\examples\API.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBBF93489F5FC125013B7D4694EA57DF</GUID>
+      <GUID>33E048354B82B0265A59095C6BB258D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -859,7 +865,7 @@ Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
         <Path>src\api\configuration\scopes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D9E275FBECE13E1CC347DC6F9862FFB</GUID>
+      <GUID>70440F90E5AEFA8BB92335FD6828339A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1020,7 +1026,7 @@ Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
         <Path>src\api\logger_class\Generate Log Record.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C9ABF8492B9BDDD372D9B08F916AF66</GUID>
+      <GUID>232D8B50C6C293E39B2B0BF3EE547585</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1083,7 +1089,7 @@ Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
         <Path>src\api\configuration\filters\data_item_filter\New Data Item Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>76BE13F4C26ED96CDC3503296B34E434</GUID>
+      <GUID>A6F91801886D7F0270D018A29F7022F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1132,7 +1138,7 @@ Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
         <Path>src\api\configuration\formatters\format_string_formatter\New F-String Formatter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95988646FF2C0F092FA5ABBF572FA9D0</GUID>
+      <GUID>5B27D10592C6E0537B2C16E7AA85CE27</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1181,7 +1187,7 @@ Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
         <Path>src\api\configuration\handlers\file_handler\New File Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AAC92D3E7235B7C1EEDFC3A8AB34427C</GUID>
+      <GUID>8C1FDB09A6910A12BB104E2E40F55B77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1216,7 +1222,7 @@ Review issues: https://github.com/mysteryhysteria/GLog/issues</Release_Notes>
         <Path>src\api\configuration\scopes\basic_scope\New Basic Scope.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34BAF3B576F350376B218E3981B335A7</GUID>
+      <GUID>94CAF339CD90833D5640D65B39145CEE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

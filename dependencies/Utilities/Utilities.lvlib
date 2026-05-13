@@ -14,6 +14,10 @@
 	<Item Name="Error Handling" Type="Folder">
 		<Item Name="Merge Errors - Conditional.vi" Type="VI" URL="../Merge Errors - Conditional.vi"/>
 	</Item>
+	<Item Name="File Handling" Type="Folder">
+		<Item Name="Get Newest File.vi" Type="VI" URL="../Get Newest File.vi"/>
+		<Item Name="Match Existing Files.vi" Type="VI" URL="../Match Existing Files.vi"/>
+	</Item>
 	<Item Name="LV18 Compatibility" Type="Folder">
 		<Item Name="1D String Array to Delimited String_V18.vi" Type="VI" URL="../1D String Array to Delimited String_V18.vi"/>
 		<Item Name="Delimited String to 1D String Array_V18.vi" Type="VI" URL="../Delimited String to 1D String Array_V18.vi"/>
@@ -24,6 +28,9 @@
 		<Item Name="Panic.vi" Type="VI" URL="../Panic.vi"/>
 		<Item Name="TODO.vi" Type="VI" URL="../TODO.vi"/>
 		<Item Name="Unreachable.vi" Type="VI" URL="../Unreachable.vi"/>
+	</Item>
+	<Item Name="Regex" Type="Folder">
+		<Item Name="Regex Match.vi" Type="VI" URL="../Regex Match.vi"/>
 	</Item>
 	<Item Name="Time" Type="Folder">
 		<Item Name="ISO 8601 UTC Format String.vi" Type="VI" URL="../ISO 8601 UTC Format String.vi"/>
